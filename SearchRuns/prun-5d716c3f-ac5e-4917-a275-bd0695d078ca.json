@@ -1,0 +1,29 @@
+{
+    "id": "prun-5d716c3f-ac5e-4917-a275-bd0695d078ca",
+    "plan_id": "plan-356b3266-a86e-4320-9e83-0758b86a9e84",
+    "current_step_index": 1,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$composed_note": {
+                "value": "Jumpers, commonly referred to as sweaters in some regions, are versatile garments designed to provide warmth and comfort. They are typically knitted or crocheted from various materials such as wool, cotton, or synthetic fibers. Key topics in the study of jumpers include their historical evolution, which traces back to the 15th century when they were primarily used by fishermen for warmth. Over time, jumpers have evolved in style and function, becoming a staple in fashion with diverse designs ranging from crew necks and V-necks to turtlenecks and cardigans. The manufacturing process of jumpers involves techniques like knitting and weaving, with advancements in technology allowing for mass production and innovative designs. Additionally, the cultural significance of jumpers varies globally, with traditional patterns and styles often reflecting regional identities. In contemporary fashion, jumpers are not only practical but also serve as a canvas for artistic expression, with designers experimenting with textures, colors, and patterns to create unique pieces.",
+                "summary": "Jumpers, commonly referred to as sweaters in some regions, are versatile garments designed to provide warmth and comfort. They are typically knitted or crocheted from various materials such as wool, cotton, or synthetic fibers. Key topics in the study of jumpers include their historical evolution, which traces back to the 15th century when they were primarily used by fishermen for warmth. Over time, jumpers have evolved in style and function, becoming a staple in fashion with diverse designs ranging from crew necks and V-necks to turtlenecks and cardigans. The manufacturing process of jumpers involves techniques like knitting and weaving, with advancements in technology allowing for mass production and innovative designs. Additionally, the cultural significance of jumpers varies globally, with traditional patterns and styles often reflecting regional identities. In contemporary fashion, jumpers are not only practical but also serve as a canvas for artistic expression, with designers experimenting with textures, colors, and patterns to create unique pieces."
+            },
+            "$notion_page_added": {
+                "value": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63",
+                "summary": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63"
+            }
+        },
+        "final_output": {
+            "value": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63",
+            "summary": "Jumpers, also known as sweaters, are versatile garments providing warmth and comfort, typically made from materials like wool, cotton, or synthetics. Key topics include their historical evolution from 15th-century fishermen's wear to modern fashion staples with diverse designs such as crew necks and cardigans. Manufacturing involves knitting and weaving, with technological advancements enabling mass production. Culturally significant, jumpers reflect regional identities and serve as artistic canvases in contemporary fashion. The note was added to a Notion page named jumpers."
+        }
+    }
+}

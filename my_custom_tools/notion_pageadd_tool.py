@@ -1,6 +1,7 @@
 from portia.errors import ToolHardError
 from pydantic import BaseModel, Field
 from portia.tool import Tool, ToolRunContext
+import subprocess
 
 class NotionPageAddToolSchema(BaseModel):
     """Schema defining the inputs for the NotionPageAddTool"""
@@ -20,3 +21,7 @@ class NotionPageAddTool(Tool[str]):
 
     def run(self, _: ToolRunContext, pagename: str, pagecontents: str) -> str:
         """Run the NotionPageAddTool"""
+        result = subprocess.run(['node', 'my_custom_tools/notion_integration.js'], capture_output=True, text=True)
+        if result.returncode != 0:
+            raise ToolHardError(f"Error running notion integration: {result.stderr}")
+        return result.stdout.strip()  

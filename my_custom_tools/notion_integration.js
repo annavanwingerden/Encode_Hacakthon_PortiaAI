@@ -1,9 +1,9 @@
-require('dotenv').config();
+require('dotenv').config({ path: '../.env.local' });
 const axios = require('axios');
 
 // Load environment variables
-const NOTION_API_KEY = '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';
-const NOTION_PARENT_ID = '1d3f5b16-c546-8020-a6f2-ccce5e4944d5';
+const NOTION_API_KEY = process.env.NOTION_API_KEY;
+const NOTION_PARENT_ID = process.env.NOTION_PARENT_ID;
 
 console.log("NOTION_API_KEY:", NOTION_API_KEY);
 console.log("NOTION_PARENT_ID:", NOTION_PARENT_ID);
@@ -25,7 +25,7 @@ const data = {
             "title": [
                 {
                     "text": {
-                        "content": "Python script running"  
+                        "content": "testing adding pages to notion"  
                     }
                 }
             ]

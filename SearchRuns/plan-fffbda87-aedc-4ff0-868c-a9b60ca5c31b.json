@@ -1,0 +1,33 @@
+{
+    "id": "plan-fffbda87-aedc-4ff0-868c-a9b60ca5c31b",
+    "plan_context": {
+        "query": "Topic:The art of learning\nCompose a short note on this topic in the style of lecture notes, ensuring the note is written as one paragraph. The note should include information describing the key topics. Then, add the note onto a Notion page named The art of learning",
+        "tool_ids": [
+            "calculator_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Compose a short note on the topic 'The art of learning' written in the style of lecture notes as one paragraph. The note should include information describing the key topics of the art of learning.",
+            "inputs": [],
+            "tool_id": "llm_tool",
+            "output": "$note_text",
+            "condition": null
+        },
+        {
+            "task": "Add the composed note onto a Notion page named 'The art of learning' by providing the note as the page content.",
+            "inputs": [
+                {
+                    "name": "$note_text",
+                    "description": "The composed note text on 'The art of learning'"
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page_added",
+            "condition": null
+        }
+    ]
+}
