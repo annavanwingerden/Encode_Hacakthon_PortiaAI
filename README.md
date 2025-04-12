@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This project uses **Portia AI** to supercharge your learning. The user can enter a topic on their Learnly dashboard - and in the background **PortiaAI** plans and executes an agentic workflow that results in a topic summary page populated in thier notion database.
+This project was developed for the Encode AI London 2025 hackathon. We aimed for the bounty offered by Portia AI and utilised their SDK. Showcases both Notion and Youtube API interactions.
+
+This project uses **Portia AI** to supercharge your learning. The user can enter a topic on their Learnly dashboard - and in the background **PortiaAI** plans and executes an agentic workflow that results in a topic summary page populated in the user's notion database.
 
  It utilizes the [Portia SDK](https://docs.portialabs.ai/) to integrate various tools, including custom-built tools for finding YouTube videos and adding content to Notion pages. The application leverages the [Youtube Data API v3](https://developers.google.com/youtube/v3) to search for a relevant youtube video, [YouTube Transcript API](https://github.com/jdepoix/youtube-transcript-api) to fetch video transcripts and the [Notion API](https://developers.notion.com/) to create and manage pages.
 
@@ -28,6 +30,7 @@ Before running this application, you'll need the following:
   NOTION_API_KEY=your_notion_api_key
   NOTION_PARENT_ID=your_notion_parent_id
   PORTIA_API_KEY=your_portia_api_key
+  TAGIVLY_API_KEY=your_tagivly_api_key
   ```
 
 ## Setup
@@ -94,5 +97,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Examples
 
 ![Homepage](images/homepage.png)
+The homepage. Enables the user to enter a topic of their choosing.
 ![Agent Execution](images/generating.png)
+While the agent is executing, the user can see a progress bar, to ensure them the backend is not idling.
 ![Notion Summary Page](images/notion_summary.png)
+After the process has concluded, a corresponding page is created on the user's chosen notion page
