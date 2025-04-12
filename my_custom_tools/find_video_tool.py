@@ -13,13 +13,13 @@ class FindVideoToolSchema(BaseModel):
                           description = "Chosen topic for Youtube video transcript to find")
     
 class FindVideoTool(Tool[str]):
-    """Returns the transcript for a video about the chosen topic"""
+    """Returns the transcript and url for a video about the chosen topic"""
     
     id: str = "find_video_tool"
     name: str = "Find video tool"
-    description: str = "Finds a youtube video that matches the topic and returns the transcript"
+    description: str = "Finds a youtube video that matches the topic and returns the transcript and the url"
     args_schema: type[BaseModel] = FindVideoToolSchema
-    output_schema: tuple[str, str] = ("str", "The video transcript of the youtube video")
+    output_schema: tuple[str, str] = ("str", "The video transcript of the youtube video, with the url at the front")
 
     def run(self, _: ToolRunContext, topic: str) -> str:
         """Run the NotionPageAddTool"""
@@ -51,4 +51,4 @@ class FindVideoTool(Tool[str]):
         fetched_transcript = ytt_api.fetch(video_id=id)
         transcript_entries = fetched_transcript.to_raw_data()  
         transcript_text = ' '.join([entry['text'] for entry in transcript_entries]) 
-        return transcript_text
+        return 'https://www.youtube.com/watch?v='+id + " : " +transcript_text

@@ -30,7 +30,7 @@ portia = Portia(tools=all_tool_registry, config = my_config)
 @app.route('/run', methods=['POST'])
 def run_query():
     user_query = request.json.get('topic')
-    plan_run = portia.run("Topic:" + user_query + "\n" + "Find a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write this onto a new page on Notion")
+    plan_run = portia.run("Topic:" + user_query + "\n" + "Find a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.")
     return jsonify(plan_run.model_dump_json())
 
 @app.route('/')
