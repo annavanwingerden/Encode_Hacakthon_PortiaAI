@@ -1,0 +1,46 @@
+{
+    "id": "plan-0cc4df84-338c-4b1f-aa37-58897eb21bc2",
+    "plan_context": {
+        "query": "Topic:Tablemats\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write this onto a new page on Notion",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Find a video about Tablemats using the provided topic 'Tablemats' and return its transcript.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_transcript",
+            "condition": null
+        },
+        {
+            "task": "Compose a short learning note from the transcript ensuring the note is written as one paragraph, includes key topics related to Tablemats, and excludes unrelated information.",
+            "inputs": [
+                {
+                    "name": "$video_transcript",
+                    "description": "Transcript of the video about Tablemats"
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Write the composed learning note onto a new page on Notion by creating a page with a name reflecting the topic and using the note as its content.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The composed short learning note about Tablemats"
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page",
+            "condition": null
+        }
+    ]
+}

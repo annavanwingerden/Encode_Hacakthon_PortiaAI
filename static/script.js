@@ -54,7 +54,12 @@ document.getElementById('submitButton').addEventListener('click', async () => {
 
     if (response.ok) {
         const data = await response.json();
-        resultDiv.innerText = "Notion page created successfully!";
+        // Display the result in the result div
+        resultDiv.innerHTML = `
+            <h2>Learning Note:</h2>
+            <p>${data.output}</p>
+            <p><strong>Summary:</strong> ${data.summary}</p>
+        `;
     } else {
         resultDiv.innerText = 'Error fetching data.';
     }
