@@ -1,6 +1,10 @@
 require('dotenv').config({ path: '../.env.local' });
 const axios = require('axios');
 
+const args = process.argv.slice(2);
+const titleArg = args[0];
+const paragraphArg = args[1];
+
 // Load environment variables
 const NOTION_API_KEY = process.env.NOTION_API_KEY;
 const NOTION_PARENT_ID = process.env.NOTION_PARENT_ID;
@@ -25,7 +29,7 @@ const data = {
             "title": [
                 {
                     "text": {
-                        "content": "testing adding pages to notion"  
+                        "content": titleArg 
                     }
                 }
             ]
@@ -40,7 +44,7 @@ const data = {
                         {
                             "type": "text",
                             "text": {
-                                "content": "This is a paragraph in the new page."
+                                "content": paragraphArg
                             }
                         }
                     ]
@@ -50,3 +54,5 @@ const data = {
     };
 
 axios.post('https://api.notion.com/v1/pages', data, { headers })
+.then(res => console.log("Page created:", res.data))
+.catch(err => console.error("Error creating page:", err.response?.data || err));
