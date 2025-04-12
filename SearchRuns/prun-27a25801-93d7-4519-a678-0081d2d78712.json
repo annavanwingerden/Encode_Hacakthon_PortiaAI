@@ -1,0 +1,25 @@
+{
+    "id": "prun-27a25801-93d7-4519-a678-0081d2d78712",
+    "plan_id": "plan-01b16435-9ba5-4ebe-aaee-7af645ee314a",
+    "current_step_index": 0,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$reddit_note": {
+                "value": "success",
+                "summary": "success"
+            }
+        },
+        "final_output": {
+            "value": "success",
+            "summary": "Reddit is a social media platform characterized by its community-driven structure, where users interact through posts, comments, and votes. It is organized into various subreddits, each focusing on specific topics, allowing for diverse content and discussions. User interactions are facilitated through upvotes and downvotes, influencing content visibility. Moderation is a key aspect, with both community moderators and automated systems ensuring adherence to guidelines. A new page titled 'Reddit Lecture Note' was successfully created."
+        }
+    }
+}

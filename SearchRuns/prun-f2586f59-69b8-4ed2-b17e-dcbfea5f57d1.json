@@ -1,0 +1,25 @@
+{
+    "id": "prun-f2586f59-69b8-4ed2-b17e-dcbfea5f57d1",
+    "plan_id": "plan-b488c560-7fb8-4133-b8e6-a806c71e6684",
+    "current_step_index": 0,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$lamp_page_note": {
+                "value": "success",
+                "summary": "success"
+            }
+        },
+        "final_output": {
+            "value": "success",
+            "summary": "A lecture note on 'Lampshades' was composed, covering key topics such as their evolution, materials, design, functionality, and historical context. The note was added as the first paragraph on a new page titled 'Lampshades Lecture Notes.'"
+        }
+    }
+}
