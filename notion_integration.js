@@ -25,7 +25,7 @@ const data = {
             "title": [
                 {
                     "text": {
-                        "content": "testing children 2"  
+                        "content": "Python script running"  
                     }
                 }
             ]
