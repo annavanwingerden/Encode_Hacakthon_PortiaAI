@@ -4,3 +4,4 @@ dotenv
 portia-sdk-python
 portia-sdk-python[all]
 Flask
+gunicorn

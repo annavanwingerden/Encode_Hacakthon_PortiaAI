@@ -14,7 +14,6 @@ app = Flask(__name__)
 
 load_dotenv('.env.local')
 openai_api_key = os.getenv("OPENAI_API_KEY")
-TAVILY_API_KEY = os.getenv("TAGIVLY_API_KEY")
 
 all_tool_registry = example_tool_registry + custom_tool_registry
 
@@ -38,4 +37,5 @@ def serve_frontend():
     return send_from_directory('frontend', 'index.html')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000)) 
+    app.run(host='0.0.0.0', port=port, debug=True)  
