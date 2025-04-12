@@ -22,5 +22,5 @@ my_config = Config.from_default(
 portia = Portia(tools=all_tool_registry, config = my_config)
 # Run the test query and print the output!
 plan_run = portia.run('Write a short note on how fast quantum computers currently are. It should be one paragraph and in the style of lecture notes.'
-                      + 'and write it onto a notion page called quantam')
+                      + 'and write it onto a notion page called quantum')
 print(plan_run.model_dump_json(indent=2))
