@@ -35,7 +35,7 @@ Before running this application, you'll need the following:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/annavanwingerden/Encode_Hacakthon_PortiaAI.git
    cd your-repo
    ```
 2. Install the required packages:
@@ -52,14 +52,18 @@ python main.py
 ```
 The application will start on `http://127.0.0.1:5000/`.
 
-## Usage
+## Testing
 
-You can send a POST request to the `/run` endpoint with a JSON body containing the topic you want to generate notes for:
+If you want to test this, you can send a POST request to the `/run` endpoint with a JSON body containing the topic you want to generate notes for:
 ```json
 {
     "topic": "Your Topic Here"
 }
 ```
+## Usage
+
+To run the app, run `python main.py` in your terminal.
+If you have different versions of python installed on your device - `python3 main.py` may be more appropiate.
 
 ## Understanding the Code
 
