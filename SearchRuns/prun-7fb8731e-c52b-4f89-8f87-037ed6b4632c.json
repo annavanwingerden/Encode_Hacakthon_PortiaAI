@@ -1,0 +1,25 @@
+{
+    "id": "prun-7fb8731e-c52b-4f89-8f87-037ed6b4632c",
+    "plan_id": "plan-2cf150c6-2eba-473c-b99a-0bcfc0319df4",
+    "current_step_index": 0,
+    "state": "FAILED",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$mcp_info": {
+                "value": "Tool search_tool failed: Error: ToolHardError('TAVILY_API_KEY is required to use search')\n Please fix your mistakes.",
+                "summary": null
+            }
+        },
+        "final_output": {
+            "value": "Tool search_tool failed: Error: ToolHardError('TAVILY_API_KEY is required to use search')\n Please fix your mistakes.",
+            "summary": null
+        }
+    }
+}

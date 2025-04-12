@@ -1,0 +1,29 @@
+{
+    "id": "prun-27b200c3-c9a4-48fa-abfd-7b80592cfdb1",
+    "plan_id": "plan-75fa4da4-bfe6-4c8c-b843-47fddf26bedd",
+    "current_step_index": 1,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$note_text": {
+                "value": "As of 2025, quantum computers are demonstrating significant advancements in speed and computational power, primarily due to their ability to perform parallel processing with qubits. Unlike classical computers that use bits as the smallest unit of data, quantum computers utilize qubits, which can exist in multiple states simultaneously due to superposition. This allows quantum computers to process complex calculations at exponentially faster rates than traditional systems. Key performance advantages include solving problems related to cryptography, optimization, and material science that are currently infeasible for classical computers. The potential future impacts of quantum computing are vast, with expectations of revolutionizing fields such as drug discovery, financial modeling, and artificial intelligence by providing unprecedented computational capabilities. However, challenges remain in terms of error rates and maintaining qubit coherence, which are critical for achieving practical and widespread applications.",
+                "summary": "As of 2025, quantum computers are demonstrating significant advancements in speed and computational power, primarily due to their ability to perform parallel processing with qubits. Unlike classical computers that use bits as the smallest unit of data, quantum computers utilize qubits, which can exist in multiple states simultaneously due to superposition. This allows quantum computers to process complex calculations at exponentially faster rates than traditional systems. Key performance advantages include solving problems related to cryptography, optimization, and material science that are currently infeasible for classical computers. The potential future impacts of quantum computing are vast, with expectations of revolutionizing fields such as drug discovery, financial modeling, and artificial intelligence by providing unprecedented computational capabilities. However, challenges remain in terms of error rates and maintaining qubit coherence, which are critical for achieving practical and widespread applications."
+            },
+            "$notion_page_added": {
+                "value": "",
+                "summary": ""
+            }
+        },
+        "final_output": {
+            "value": "",
+            "summary": "As of 2025, quantum computers are demonstrating significant advancements in speed and computational power, primarily due to their ability to perform parallel processing with qubits. Unlike classical computers that use bits, quantum computers utilize qubits, which can exist in multiple states simultaneously due to superposition. This allows them to process complex calculations exponentially faster than traditional systems, with key advantages in cryptography, optimization, and material science. Future impacts include revolutionizing drug discovery, financial modeling, and AI, despite challenges like error rates and qubit coherence. The note was written onto a Notion page named 'quantum'."
+        }
+    }
+}

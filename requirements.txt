@@ -3,3 +3,5 @@ requests
 # Node.js dependencies (for reference, not installable via pip)
 axios
 dotenv
+portia-sdk-python
+portia-sdk-python[all]
