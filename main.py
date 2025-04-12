@@ -10,11 +10,8 @@ from my_custom_tools.registry import custom_tool_registry
 import os
 
 load_dotenv('.env.local')
-<<<<<<< HEAD
-=======
 openai_api_key = os.getenv("OPENAI_API_KEY")
 TAGIVLY_API_KEY = os.getenv("TAGIVLY_API_KEY")
->>>>>>> 476185f8d828c69adc945f22ce4879b1c5f2a09a
 
 all_tool_registry = example_tool_registry + custom_tool_registry
 
