@@ -1,0 +1,5 @@
+youtube-transcript-api
+requests
+# Node.js dependencies (for reference, not installable via pip)
+axios
+dotenv
