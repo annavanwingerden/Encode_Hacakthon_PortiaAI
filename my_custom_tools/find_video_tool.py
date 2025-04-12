@@ -17,7 +17,7 @@ class FindVideoTool(Tool[str]):
     
     id: str = "find_video_tool"
     name: str = "Find video tool"
-    description: str = "Finds a youtube video that matches the topic"
+    description: str = "Finds a youtube video that matches the topic and returns the transcript"
     args_schema: type[BaseModel] = FindVideoToolSchema
     output_schema: tuple[str, str] = ("str", "The video transcript of the youtube video")
 
