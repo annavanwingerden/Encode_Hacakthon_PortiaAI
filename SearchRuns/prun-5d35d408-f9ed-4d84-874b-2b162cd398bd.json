@@ -1,0 +1,29 @@
+{
+    "id": "prun-5d35d408-f9ed-4d84-874b-2b162cd398bd",
+    "plan_id": "plan-453af8ad-90bc-4551-ab6c-0a7c49494d72",
+    "current_step_index": 1,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$egg_note": {
+                "value": "Eggs are a versatile and nutrient-rich food, commonly consumed worldwide. They are primarily composed of a shell, albumen (egg white), and yolk, each serving distinct functions. The shell provides protection, while the albumen contains water and proteins, and the yolk is rich in fats, vitamins, and minerals. Eggs are an excellent source of high-quality protein, essential amino acids, and nutrients such as vitamin D, B vitamins, selenium, and choline. They play a crucial role in culinary applications due to their emulsifying, binding, and leavening properties. Additionally, eggs are a subject of nutritional studies, often discussed in the context of cholesterol content and heart health. Understanding the structure, nutritional value, and culinary uses of eggs is essential for both dietary planning and food science.",
+                "summary": "Eggs are a versatile and nutrient-rich food, commonly consumed worldwide. They are primarily composed of a shell, albumen (egg white), and yolk, each serving distinct functions. The shell provides protection, while the albumen contains water and proteins, and the yolk is rich in fats, vitamins, and minerals. Eggs are an excellent source of high-quality protein, essential amino acids, and nutrients such as vitamin D, B vitamins, selenium, and choline. They play a crucial role in culinary applications due to their emulsifying, binding, and leavening properties. Additionally, eggs are a subject of nutritional studies, often discussed in the context of cholesterol content and heart health. Understanding the structure, nutritional value, and culinary uses of eggs is essential for both dietary planning and food science."
+            },
+            "$notion_page_updated": {
+                "value": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63\nPage created: {\n  object: 'page',\n  id: '1d3f5b16-c546-81c8-99d2-fe0ff4a67808',\n  created_time: '2025-04-12T15:59:00.000Z',\n  last_edited_time: '2025-04-12T15:59:00.000Z',\n  created_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  last_edited_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  cover: null,\n  icon: null,\n  parent: {\n    type: 'database_id',\n    database_id: '1d3f5b16-c546-807b-a8c6-cafde50b1d63'\n  },\n  archived: false,\n  in_trash: false,\n  properties: { Name: { id: 'title', type: 'title', title: [Array] } },\n  url: 'https://www.notion.so/Eggs-1d3f5b16c54681c899d2fe0ff4a67808',\n  public_url: null,\n  request_id: 'bc70979e-29ed-48b2-94b2-72e923c24d9a'\n}",
+                "summary": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63\nPage created: {\n  object: 'page',\n  id: '1d3f5b16-c546-81c8-99d2-fe0ff4a67808',\n  created_time: '2025-04-12T15:59:00.000Z',\n  last_edited_time: '2025-04-12T15:59:00.000Z',\n  created_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  last_edited_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  cover: null,\n  icon: null,\n  parent: {\n    type: 'database_id',\n    database_id: '1d3f5b16-c546-807b-a8c6-cafde50b1d63'\n  },\n  archived: false,\n  in_trash: false,\n  properties: { Name: { id: 'title', type: 'title', title: [Array] } },\n  url: 'https://www.notion.so/Eggs-1d3f5b16c54681c899d2fe0ff4a67808',\n  public_url: null,\n  request_id: 'bc70979e-29ed-48b2-94b2-72e923c24d9a'\n}"
+            }
+        },
+        "final_output": {
+            "value": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63\nPage created: {\n  object: 'page',\n  id: '1d3f5b16-c546-81c8-99d2-fe0ff4a67808',\n  created_time: '2025-04-12T15:59:00.000Z',\n  last_edited_time: '2025-04-12T15:59:00.000Z',\n  created_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  last_edited_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  cover: null,\n  icon: null,\n  parent: {\n    type: 'database_id',\n    database_id: '1d3f5b16-c546-807b-a8c6-cafde50b1d63'\n  },\n  archived: false,\n  in_trash: false,\n  properties: { Name: { id: 'title', type: 'title', title: [Array] } },\n  url: 'https://www.notion.so/Eggs-1d3f5b16c54681c899d2fe0ff4a67808',\n  public_url: null,\n  request_id: 'bc70979e-29ed-48b2-94b2-72e923c24d9a'\n}",
+            "summary": "Eggs are a versatile, nutrient-rich food, consisting of a shell, albumen, and yolk, each with distinct functions. They provide high-quality protein, essential amino acids, and nutrients like vitamin D and choline. Eggs are crucial in culinary applications for their emulsifying, binding, and leavening properties and are often discussed in nutritional studies regarding cholesterol and heart health. This note was successfully added to a Notion page named \"Eggs,\" accessible at the provided URL."
+        }
+    }
+}

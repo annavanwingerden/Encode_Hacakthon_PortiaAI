@@ -1,0 +1,25 @@
+{
+    "id": "prun-5c51b49f-a827-47ea-a85d-f3271d4ccadf",
+    "plan_id": "plan-61ce1789-a27f-4e07-8b61-490efe5e4614",
+    "current_step_index": 0,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$glass_making_note": {
+                "value": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63\nPage created: {\n  object: 'page',\n  id: '1d3f5b16-c546-81a6-8a69-ea1bf77fa6c8',\n  created_time: '2025-04-12T16:44:00.000Z',\n  last_edited_time: '2025-04-12T16:44:00.000Z',\n  created_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  last_edited_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  cover: null,\n  icon: null,\n  parent: {\n    type: 'database_id',\n    database_id: '1d3f5b16-c546-807b-a8c6-cafde50b1d63'\n  },\n  archived: false,\n  in_trash: false,\n  properties: { Name: { id: 'title', type: 'title', title: [Array] } },\n  url: 'https://www.notion.so/Glass-Making-1d3f5b16c54681a68a69ea1bf77fa6c8',\n  public_url: null,\n  request_id: 'b190f810-5f97-4407-bab9-f5f34512ecc2'\n}",
+                "summary": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63\nPage created: {\n  object: 'page',\n  id: '1d3f5b16-c546-81a6-8a69-ea1bf77fa6c8',\n  created_time: '2025-04-12T16:44:00.000Z',\n  last_edited_time: '2025-04-12T16:44:00.000Z',\n  created_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  last_edited_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  cover: null,\n  icon: null,\n  parent: {\n    type: 'database_id',\n    database_id: '1d3f5b16-c546-807b-a8c6-cafde50b1d63'\n  },\n  archived: false,\n  in_trash: false,\n  properties: { Name: { id: 'title', type: 'title', title: [Array] } },\n  url: 'https://www.notion.so/Glass-Making-1d3f5b16c54681a68a69ea1bf77fa6c8',\n  public_url: null,\n  request_id: 'b190f810-5f97-4407-bab9-f5f34512ecc2'\n}"
+            }
+        },
+        "final_output": {
+            "value": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63\nPage created: {\n  object: 'page',\n  id: '1d3f5b16-c546-81a6-8a69-ea1bf77fa6c8',\n  created_time: '2025-04-12T16:44:00.000Z',\n  last_edited_time: '2025-04-12T16:44:00.000Z',\n  created_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  last_edited_by: { object: 'user', id: 'ca867536-4007-4713-97d0-ec584c7e48df' },\n  cover: null,\n  icon: null,\n  parent: {\n    type: 'database_id',\n    database_id: '1d3f5b16-c546-807b-a8c6-cafde50b1d63'\n  },\n  archived: false,\n  in_trash: false,\n  properties: { Name: { id: 'title', type: 'title', title: [Array] } },\n  url: 'https://www.notion.so/Glass-Making-1d3f5b16c54681a68a69ea1bf77fa6c8',\n  public_url: null,\n  request_id: 'b190f810-5f97-4407-bab9-f5f34512ecc2'\n}",
+            "summary": "Glass making involves key topics such as raw materials, production processes, and innovations. The primary raw materials include silica sand, soda ash, and limestone. The production process involves melting these materials at high temperatures to form a molten glass, which is then shaped and cooled. Innovations in glass making focus on improving energy efficiency and developing new types of glass with enhanced properties. This information was compiled into a Notion page for easy access and reference."
+        }
+    }
+}
