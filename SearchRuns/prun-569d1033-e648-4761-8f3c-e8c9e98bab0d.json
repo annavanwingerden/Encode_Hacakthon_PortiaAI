@@ -1,0 +1,25 @@
+{
+    "id": "prun-569d1033-e648-4761-8f3c-e8c9e98bab0d",
+    "plan_id": "plan-87b9d794-38d4-4363-a659-5e52d6f2015c",
+    "current_step_index": 0,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$note_created": {
+                "value": "success",
+                "summary": "success"
+            }
+        },
+        "final_output": {
+            "value": "success",
+            "summary": "Lampshades have evolved significantly in design, transitioning from simple functional covers to intricate decorative elements. Key materials include fabric, paper, glass, and metal, each offering unique properties affecting light diffusion and durability. Functional illumination tips emphasize choosing the right shape and size to optimize light distribution. Aesthetically, lampshades contribute to ambiance and style, playing a crucial role in interior design by complementing or contrasting with existing decor."
+        }
+    }
+}

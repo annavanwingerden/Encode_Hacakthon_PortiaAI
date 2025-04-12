@@ -1,0 +1,33 @@
+{
+    "id": "plan-453af8ad-90bc-4551-ab6c-0a7c49494d72",
+    "plan_context": {
+        "query": "Topic:Eggs\nCompose a short note on this topic in the style of lecture notes, ensuring the note is written as one paragraph. The note should include information describing the key topics. Then, add the note onto a Notion page named Eggs",
+        "tool_ids": [
+            "calculator_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Compose a short note on the topic Eggs in the style of lecture notes as one paragraph that includes information describing the key topics of eggs.",
+            "inputs": [],
+            "tool_id": "llm_tool",
+            "output": "$egg_note",
+            "condition": null
+        },
+        {
+            "task": "Add the composed note onto a Notion page with the name Eggs using the provided note text.",
+            "inputs": [
+                {
+                    "name": "$egg_note",
+                    "description": "The composed note on the topic Eggs in lecture notes style."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page_updated",
+            "condition": null
+        }
+    ]
+}

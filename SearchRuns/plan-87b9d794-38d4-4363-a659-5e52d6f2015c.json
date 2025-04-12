@@ -1,0 +1,22 @@
+{
+    "id": "plan-87b9d794-38d4-4363-a659-5e52d6f2015c",
+    "plan_context": {
+        "query": "Topic:Lampshades\nCompose a short note on this topic in the style of lecture notes, ensuring the note is written as one paragraph. The note should include information describing the key topics.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Compose a short note on the topic 'Lampshades' in a lecture note style as one paragraph. Include key topics such as the evolution of lampshade design, material properties, functional illumination tips, aesthetic considerations, and their role in interior design.",
+            "inputs": [],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$note_created",
+            "condition": null
+        }
+    ]
+}

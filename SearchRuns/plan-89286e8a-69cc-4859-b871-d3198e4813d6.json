@@ -1,0 +1,22 @@
+{
+    "id": "plan-89286e8a-69cc-4859-b871-d3198e4813d6",
+    "plan_context": {
+        "query": "Topic:How coats are made\nCompose a short note on this topic in the style of lecture notes, ensuring the note is written as one paragraph. The note should include information describing the key topics.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Compose a short note on the topic 'How coats are made' in the style of lecture notes. The note should be written as one paragraph and include all key topics such as design, material selection, construction techniques, and finishing details.",
+            "inputs": [],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$coats_note",
+            "condition": null
+        }
+    ]
+}

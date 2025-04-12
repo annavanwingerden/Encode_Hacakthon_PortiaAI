@@ -1,0 +1,34 @@
+{
+    "id": "plan-4dd28b97-22b9-4a6d-9321-0bd68d71142b",
+    "plan_context": {
+        "query": "Topic:Kindles\nCompose a short note on this topic in the style of lecture notes, ensuring the note is written as one paragraph. The note should include information describing the key topics.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Search the internet for information on Kindles that includes key topics relevant for lecture notes. The search query is 'Kindles key topics for lecture notes'.",
+            "inputs": [],
+            "tool_id": "search_tool",
+            "output": "$kindles_info",
+            "condition": null
+        },
+        {
+            "task": "Compose a short note on the topic 'Kindles' in the style of lecture notes as a single paragraph that includes information describing the key topics retrieved from the search results. Create a new page with the name 'Kindles Lecture Notes' and use the information from the previous step as a reference.",
+            "inputs": [
+                {
+                    "name": "$kindles_info",
+                    "description": "The information on Kindles including key topics retrieved from the search query."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$kindles_note",
+            "condition": null
+        }
+    ]
+}
