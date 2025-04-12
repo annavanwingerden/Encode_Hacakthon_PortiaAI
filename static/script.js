@@ -43,3 +43,8 @@ document.getElementById('submitButton').addEventListener('click', async () => {
         resultDiv.innerText = 'Error fetching data.';
     }
 });
+
+function toggleMenu() {
+    const nav = document.getElementById('navLinks');
+    nav.classList.toggle('active');
+  }
