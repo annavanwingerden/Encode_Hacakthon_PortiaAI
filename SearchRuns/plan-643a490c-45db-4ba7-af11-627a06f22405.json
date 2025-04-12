@@ -1,0 +1,50 @@
+{
+    "id": "plan-643a490c-45db-4ba7-af11-627a06f22405",
+    "plan_context": {
+        "query": "Topic:the try guys\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Find a video about the try guys. Extract its transcript and URL.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_data",
+            "condition": null
+        },
+        {
+            "task": "Using the transcript from the video provided in $video_data, compose a short learning note written as one paragraph that summarizes the key topics covered and excludes any unrelated information from the transcript.",
+            "inputs": [
+                {
+                    "name": "$video_data",
+                    "description": "The video data including the transcript and URL of the video about the try guys."
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Write the composed learning note along with the video URL from $video_data onto a new Notion page. Ensure the note includes the URL.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The learning note composed from the video transcript."
+                },
+                {
+                    "name": "$video_data",
+                    "description": "The video data containing the URL of the video."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page",
+            "condition": null
+        }
+    ]
+}

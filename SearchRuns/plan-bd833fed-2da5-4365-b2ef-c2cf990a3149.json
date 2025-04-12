@@ -1,0 +1,50 @@
+{
+    "id": "plan-bd833fed-2da5-4365-b2ef-c2cf990a3149",
+    "plan_context": {
+        "query": "Topic:Bridgerton\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Find a video about the topic Bridgerton and retrieve its transcript and URL using the provided topic.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_data",
+            "condition": null
+        },
+        {
+            "task": "Compose a short learning note as one paragraph summarizing the key topics covered in the retrieved transcript and include the URL from the video data, ensuring that only topic-related information is included.",
+            "inputs": [
+                {
+                    "name": "$video_data",
+                    "description": "Video data containing transcript and URL about Bridgerton"
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Write the summary from the learning note and the URL onto a new page on Notion with the title 'Bridgerton Learning Note'.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "Learning note summarizing the key topics from the transcript and URL"
+                },
+                {
+                    "name": "$video_data",
+                    "description": "Video data containing the URL to be included on the page"
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page",
+            "condition": null
+        }
+    ]
+}

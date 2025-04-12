@@ -1,0 +1,46 @@
+{
+    "id": "plan-47966bf8-78c2-4972-b59b-b01034bd499f",
+    "plan_context": {
+        "query": "Topic:Books\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Find a video about the topic 'Books' by using the provided topic in the query and retrieve the transcript and URL from the result.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_details",
+            "condition": null
+        },
+        {
+            "task": "Using the transcript and URL from the previous step, compose a short learning note in one paragraph that includes the key topics covered and the URL, ensuring that irrelevant information is excluded.",
+            "inputs": [
+                {
+                    "name": "$video_details",
+                    "description": "The video transcript and URL retrieved from the video search."
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Write the composed learning note and its included URL onto a new Notion page, making sure to create a page that reflects the topic 'Books'.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The composed learning note that includes key topics and the URL from the video."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page_created",
+            "condition": null
+        }
+    ]
+}

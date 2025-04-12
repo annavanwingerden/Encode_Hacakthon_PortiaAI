@@ -1,0 +1,25 @@
+{
+    "id": "prun-7abf0216-d835-4808-8714-e6682fde669f",
+    "plan_id": "plan-643a490c-45db-4ba7-af11-627a06f22405",
+    "current_step_index": 0,
+    "state": "FAILED",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$video_data": {
+                "value": "Tool find_video_tool failed after retries: Error: ToolSoftError(KeyError('videoId'))\n Please fix your mistakes.",
+                "summary": null
+            }
+        },
+        "final_output": {
+            "value": "Tool find_video_tool failed after retries: Error: ToolSoftError(KeyError('videoId'))\n Please fix your mistakes.",
+            "summary": null
+        }
+    }
+}

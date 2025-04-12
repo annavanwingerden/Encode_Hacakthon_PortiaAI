@@ -1,0 +1,25 @@
+{
+    "id": "prun-03d9ec4f-eeb3-4625-9483-df3f07f8db56",
+    "plan_id": "plan-992890b1-9b1b-4288-8b99-24c0effc46e8",
+    "current_step_index": 0,
+    "state": "FAILED",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$video_info": {
+                "value": "Tool find_video_tool failed after retries: Error: ToolSoftError(ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))))\n Please fix your mistakes.",
+                "summary": null
+            }
+        },
+        "final_output": {
+            "value": "Tool find_video_tool failed after retries: Error: ToolSoftError(ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))))\n Please fix your mistakes.",
+            "summary": null
+        }
+    }
+}

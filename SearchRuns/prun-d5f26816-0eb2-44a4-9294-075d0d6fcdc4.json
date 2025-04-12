@@ -1,0 +1,25 @@
+{
+    "id": "prun-d5f26816-0eb2-44a4-9294-075d0d6fcdc4",
+    "plan_id": "plan-47966bf8-78c2-4972-b59b-b01034bd499f",
+    "current_step_index": 0,
+    "state": "FAILED",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$video_details": {
+                "value": "Tool find_video_tool failed after retries: Error: ToolSoftError(TranscriptsDisabled())\n Please fix your mistakes.",
+                "summary": null
+            }
+        },
+        "final_output": {
+            "value": "Tool find_video_tool failed after retries: Error: ToolSoftError(TranscriptsDisabled())\n Please fix your mistakes.",
+            "summary": null
+        }
+    }
+}

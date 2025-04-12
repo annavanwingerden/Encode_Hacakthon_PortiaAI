@@ -1,4 +1,7 @@
-document.getElementById('submitButton').addEventListener('click', async () => {
+document.getElementById('submitButton').addEventListener('click', async (event) => {
+    console.log("Button clicked!"); // Confirm the button click
+    event.preventDefault(); // Prevent the default form submission behavior
+
     const topic = document.getElementById('topicInput').value;
     const loadingMessage = document.getElementById('loading');
     const resultDiv = document.getElementById('result');
@@ -77,7 +80,7 @@ document.getElementById('submitButton').addEventListener('click', async () => {
     let progress = 0;
     const progressInterval = setInterval(() => {
         if (progress < 100) {
-            progress += 0.1; // Increment progress
+            progress += 0.5; // Increment progress
             progressBar.style.width = progress + '%'; // Update progress bar width
         }
     }, 300); // Update every 300ms
@@ -93,21 +96,29 @@ document.getElementById('submitButton').addEventListener('click', async () => {
     // Stop updating the loading message and progress
     clearInterval(loadingInterval);
     clearInterval(progressInterval);
-    loadingMessage.style.display = 'none'; // Hide loading message
-    progressContainer.style.display = 'none'; // Hide progress bar
+    loadingMessage.style.display = 'none'; 
+    progressContainer.style.display = 'none'; 
+
+    console.log("Response status:", response.status);
 
     if (response.ok) {
         const data = await response.json();
-        // Extract the URL from the output message
-        const urlMatch = data.output.match(/URL: (https:\/\/www\.notion\.so\/[^\s]+)/);
-        const pageUrl = urlMatch ? urlMatch[1] : 'URL not found';
+        console.log("Response data:", data); // Log the response data
+
+        // Access the video URL and learning note from the nested structure
+        const videoUrl = data.outputs.step_outputs["$video"].value; // Get the video URL
+        const learningNote = data.outputs.step_outputs["$learning_note"].value; // Get the learning note
 
         // Display the result in the result div
         resultDiv.innerHTML = `
-            <h2>View your new page here:</h2>
-            <p>${pageUrl}</p>
+            <h2>Summary of your learning note:</h2>
+            <p>${learningNote}</p>
+            <h2>Video Link:</h2>
+            <p><a href="${videoUrl}" target="_blank">${videoUrl}</a></p>
         `;
     } else {
+        const errorData = await response.text();
+        console.log("Error response body:", errorData);
         resultDiv.innerText = 'Error fetching data.';
     }
 });

@@ -1,0 +1,50 @@
+{
+    "id": "plan-dcb79d6f-4ac8-4eb5-ab5c-3c06591e8b0e",
+    "plan_context": {
+        "query": "Topic:Eucalyptus tree\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Find a YouTube video about 'Eucalyptus tree' that provides its transcript and URL.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_finding",
+            "condition": null
+        },
+        {
+            "task": "Compose a short learning note as one paragraph using the transcript from the video output to highlight key topics related to 'Eucalyptus tree' and include the video URL.",
+            "inputs": [
+                {
+                    "name": "$video_finding",
+                    "description": "The video details including transcript and URL about 'Eucalyptus tree'"
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Write a new page on Notion using the composed learning note and the video URL, ensuring the page contains both the summary of key topics and the URL.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The composed learning note summarizing the key topics on 'Eucalyptus tree' with the included video URL"
+                },
+                {
+                    "name": "$video_finding",
+                    "description": "The video details that include the URL about 'Eucalyptus tree'"
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page",
+            "condition": null
+        }
+    ]
+}

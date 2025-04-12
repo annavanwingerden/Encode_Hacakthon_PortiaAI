@@ -1,0 +1,46 @@
+{
+    "id": "plan-db753cad-5f37-40aa-a37e-91c83ae22d02",
+    "plan_context": {
+        "query": "Topic:Glass making\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Find a video about Glass making by using a tool that returns a transcript and URL of a video related to the topic 'Glass making'.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video",
+            "condition": null
+        },
+        {
+            "task": "Compose a short learning note from the transcript of the video found in $video. The note should be written as one paragraph and include key topics related to Glass making as well as the video's URL.",
+            "inputs": [
+                {
+                    "name": "$video",
+                    "description": "The output from finding the video which includes the transcript and URL."
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Create a new page on Notion with the title 'Glass making Learning Note' and write the learning note from $learning_note onto the page, making sure the note includes the video URL.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The composed learning note that includes a summary of the video transcript and the video's URL."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page",
+            "condition": null
+        }
+    ]
+}

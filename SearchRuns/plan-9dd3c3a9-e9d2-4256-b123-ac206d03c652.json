@@ -1,0 +1,50 @@
+{
+    "id": "plan-9dd3c3a9-e9d2-4256-b123-ac206d03c652",
+    "plan_context": {
+        "query": "Topic:cloud computing\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Use the provided topic 'cloud computing' to find a video. Process the request to retrieve the video's transcript and URL.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_info",
+            "condition": null
+        },
+        {
+            "task": "Using the transcript from the video retrieved in the previous step, compose a short one-paragraph learning note that summarizes the key topics covered on cloud computing. Ensure to include only relevant information and exclude unrelated details.",
+            "inputs": [
+                {
+                    "name": "$video_info",
+                    "description": "Video information including transcript and URL produced in the previous step"
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Create a new page on Notion with a suitable title and content that combines the learning note from the previous step with the video's URL. The page should include the summary and clearly display the URL.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The composed one-paragraph learning note summarizing the key topics from the video transcript"
+                },
+                {
+                    "name": "$video_info",
+                    "description": "Video information which contains the URL that needs to be included in the Notion page"
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page",
+            "condition": null
+        }
+    ]
+}

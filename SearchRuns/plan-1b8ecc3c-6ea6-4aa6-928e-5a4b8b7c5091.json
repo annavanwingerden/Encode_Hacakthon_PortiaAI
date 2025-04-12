@@ -1,0 +1,46 @@
+{
+    "id": "plan-1b8ecc3c-6ea6-4aa6-928e-5a4b8b7c5091",
+    "plan_context": {
+        "query": "Topic:Eucalyptus tree\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Retrieve a video about the topic 'Eucalyptus tree' by using the transcript and URL provided from the video source.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_info",
+            "condition": null
+        },
+        {
+            "task": "Compose a short learning note as one paragraph that summarizes the key topics covered in the video transcript related to 'Eucalyptus tree'. Include the video URL in the note using the transcript and URL provided in $video_info.",
+            "inputs": [
+                {
+                    "name": "$video_info",
+                    "description": "Output from retrieving the video which includes the transcript and URL."
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Create a new Notion page titled 'Eucalyptus tree Learning Note' and write the composed learning note onto it, ensuring the note includes the URL from the video.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The composed learning note that contains the summary and the video URL."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page",
+            "condition": null
+        }
+    ]
+}

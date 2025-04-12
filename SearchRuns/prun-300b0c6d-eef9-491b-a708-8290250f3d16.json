@@ -1,0 +1,25 @@
+{
+    "id": "prun-300b0c6d-eef9-491b-a708-8290250f3d16",
+    "plan_id": "plan-bd833fed-2da5-4365-b2ef-c2cf990a3149",
+    "current_step_index": 0,
+    "state": "FAILED",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$video_data": {
+                "value": "Tool find_video_tool failed after retries: Error: ToolSoftError(NoTranscriptFound())\n Please fix your mistakes.",
+                "summary": null
+            }
+        },
+        "final_output": {
+            "value": "Tool find_video_tool failed after retries: Error: ToolSoftError(NoTranscriptFound())\n Please fix your mistakes.",
+            "summary": null
+        }
+    }
+}
