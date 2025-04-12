@@ -28,7 +28,6 @@ Before running this application, you'll need the following:
   NOTION_API_KEY=your_notion_api_key
   NOTION_PARENT_ID=your_notion_parent_id
   PORTIA_API_KEY=your_portia_api_key
-  TAGIVLY_API_KEY=your_tagivly_api_key
   ```
 
 ## Setup
