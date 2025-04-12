@@ -1,0 +1,29 @@
+{
+    "id": "prun-e036d5a6-76ae-4d7c-8c68-4f85b2f54ff2",
+    "plan_id": "plan-0e411ef8-7ade-4dc6-b4eb-c3200c6516a1",
+    "current_step_index": 1,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$note_text": {
+                "value": "Jumpers, commonly known as sweaters in some regions, are versatile garments designed to provide warmth and comfort. They are typically made from materials such as wool, cotton, or synthetic fibers, each offering different levels of insulation and breathability. Key topics related to jumpers include their historical evolution, which traces back to the 15th century when they were primarily used by fishermen for warmth. The design of jumpers has evolved significantly, with variations such as crew neck, V-neck, and turtleneck styles, each serving different fashion and functional purposes. Additionally, the cultural significance of jumpers is notable, as they often feature traditional patterns and motifs, such as the iconic Aran and Fair Isle designs, which reflect regional identities. In contemporary fashion, jumpers are not only practical but also a staple in layering, allowing for diverse styling options across seasons.",
+                "summary": "Jumpers, commonly known as sweaters in some regions, are versatile garments designed to provide warmth and comfort. They are typically made from materials such as wool, cotton, or synthetic fibers, each offering different levels of insulation and breathability. Key topics related to jumpers include their historical evolution, which traces back to the 15th century when they were primarily used by fishermen for warmth. The design of jumpers has evolved significantly, with variations such as crew neck, V-neck, and turtleneck styles, each serving different fashion and functional purposes. Additionally, the cultural significance of jumpers is notable, as they often feature traditional patterns and motifs, such as the iconic Aran and Fair Isle designs, which reflect regional identities. In contemporary fashion, jumpers are not only practical but also a staple in layering, allowing for diverse styling options across seasons."
+            },
+            "$page_added": {
+                "value": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63",
+                "summary": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63"
+            }
+        },
+        "final_output": {
+            "value": "NOTION_API_KEY: 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\nNOTION_PARENT_ID: 1d3f5b16c546807ba8c6cafde50b1d63",
+            "summary": "Jumpers, also known as sweaters, are versatile garments made from materials like wool, cotton, or synthetics, offering varying insulation and breathability. Originating in the 15th century for fishermen, their design has evolved to include crew neck, V-neck, and turtleneck styles. They hold cultural significance with traditional patterns like Aran and Fair Isle. In modern fashion, jumpers are essential for layering and styling. The note was added to a Notion page named 'Jumpers' using the provided API key and parent ID."
+        }
+    }
+}

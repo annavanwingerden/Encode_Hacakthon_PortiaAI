@@ -1,0 +1,33 @@
+{
+    "id": "plan-3e451642-bb93-453f-ac84-a3768c957b69",
+    "plan_context": {
+        "query": "Topic:model context protocol\nCompose a short note on this topic in the style of lecture notes, ensuring the note is written as one paragraph. The note should include information describing the key topics. Then, add the note onto a Notion page named model context protocol",
+        "tool_ids": [
+            "calculator_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Compose a short note on 'model context protocol' written as a single paragraph in the style of lecture notes. The note must describe the key topics including the structural framework, context awareness of models, and guidelines on protocol implementation.",
+            "inputs": [],
+            "tool_id": "llm_tool",
+            "output": "$note",
+            "condition": null
+        },
+        {
+            "task": "Add the composed note onto a Notion page with the name 'model context protocol' using the note output from the previous step as the page contents.",
+            "inputs": [
+                {
+                    "name": "$note",
+                    "description": "The composed lecture note on model context protocol"
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$page_added",
+            "condition": null
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": "plan-7405ed5c-fb7a-4c27-8c24-0693f6bfe935",
+    "plan_context": {
+        "query": "Topic:Jumpers\nCompose a short note on this topic in the style of lecture notes, ensuring the note is written as one paragraph. The note should include information describing the key topics. Then, add the note onto a Notion page named Jumpers",
+        "tool_ids": [
+            "calculator_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Compose a short note on the topic 'Jumpers' in the style of lecture notes, written as one paragraph and including information describing the key topics as provided in the query.",
+            "inputs": [],
+            "tool_id": "llm_tool",
+            "output": "$composed_note",
+            "condition": null
+        },
+        {
+            "task": "Add the composed note onto a Notion page named 'Jumpers' using the output from the previous step.",
+            "inputs": [
+                {
+                    "name": "$composed_note",
+                    "description": "The composed lecture note on the topic 'Jumpers' as a single paragraph."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page_added",
+            "condition": null
+        }
+    ]
+}

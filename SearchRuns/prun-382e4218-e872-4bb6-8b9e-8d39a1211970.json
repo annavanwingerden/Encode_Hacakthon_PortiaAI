@@ -1,0 +1,29 @@
+{
+    "id": "prun-382e4218-e872-4bb6-8b9e-8d39a1211970",
+    "plan_id": "plan-7405ed5c-fb7a-4c27-8c24-0693f6bfe935",
+    "current_step_index": 1,
+    "state": "FAILED",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$composed_note": {
+                "value": "Jumpers, commonly known as sweaters in some regions, are versatile garments that serve both functional and aesthetic purposes. They are typically knitted or crocheted from wool, cotton, or synthetic fibers, providing warmth and comfort in cooler climates. The design of jumpers can vary widely, including crew necks, V-necks, turtlenecks, and cardigans, each offering different styles and levels of warmth. Historically, jumpers have been a staple in fashion, evolving from practical workwear to high-fashion items. They are often associated with cultural and regional identities, such as the iconic Aran sweater from Ireland, known for its intricate cable patterns. In contemporary fashion, jumpers are celebrated for their adaptability, being worn casually or dressed up for more formal occasions. The sustainability of materials used in jumpers is increasingly important, with a growing emphasis on eco-friendly and ethically sourced fibers.",
+                "summary": "Jumpers, commonly known as sweaters in some regions, are versatile garments that serve both functional and aesthetic purposes. They are typically knitted or crocheted from wool, cotton, or synthetic fibers, providing warmth and comfort in cooler climates. The design of jumpers can vary widely, including crew necks, V-necks, turtlenecks, and cardigans, each offering different styles and levels of warmth. Historically, jumpers have been a staple in fashion, evolving from practical workwear to high-fashion items. They are often associated with cultural and regional identities, such as the iconic Aran sweater from Ireland, known for its intricate cable patterns. In contemporary fashion, jumpers are celebrated for their adaptability, being worn casually or dressed up for more formal occasions. The sustainability of materials used in jumpers is increasingly important, with a growing emphasis on eco-friendly and ethically sourced fibers."
+            },
+            "$notion_page_added": {
+                "value": "Tool notion_pageadd_tool failed: Error: ToolHardError(\"Error running notion integration: node:internal/modules/cjs/loader:1412\\n  throw err;\\n  ^\\n\\nError: Cannot find module 'C:\\\\Users\\\\annav\\\\Documents\\\\Github_Repos\\\\Encode_Hacakthon_PortiaAI\\\\notion_integration.js'\\n    at Function._resolveFilename (node:internal/modules/cjs/loader:1409:15)\\n    at defaultResolveImpl (node:internal/modules/cjs/loader:1060:19)\\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1065:22)\\n    at Function._load (node:internal/modules/cjs/loader:1214:37)\\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\\n    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)\\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)\\n    at node:internal/main/run_main_module:33:47 {\\n  code: 'MODULE_NOT_FOUND',\\n  requireStack: []\\n}\\n\\nNode.js v23.6.1\\n\")\n Please fix your mistakes.",
+                "summary": null
+            }
+        },
+        "final_output": {
+            "value": "Tool notion_pageadd_tool failed: Error: ToolHardError(\"Error running notion integration: node:internal/modules/cjs/loader:1412\\n  throw err;\\n  ^\\n\\nError: Cannot find module 'C:\\\\Users\\\\annav\\\\Documents\\\\Github_Repos\\\\Encode_Hacakthon_PortiaAI\\\\notion_integration.js'\\n    at Function._resolveFilename (node:internal/modules/cjs/loader:1409:15)\\n    at defaultResolveImpl (node:internal/modules/cjs/loader:1060:19)\\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1065:22)\\n    at Function._load (node:internal/modules/cjs/loader:1214:37)\\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\\n    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)\\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)\\n    at node:internal/main/run_main_module:33:47 {\\n  code: 'MODULE_NOT_FOUND',\\n  requireStack: []\\n}\\n\\nNode.js v23.6.1\\n\")\n Please fix your mistakes.",
+            "summary": null
+        }
+    }
+}

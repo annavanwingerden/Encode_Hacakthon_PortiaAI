@@ -1,0 +1,29 @@
+{
+    "id": "prun-3f2f919c-e5b6-4e0b-9e77-eb4b2852a59f",
+    "plan_id": "plan-3e451642-bb93-453f-ac84-a3768c957b69",
+    "current_step_index": 1,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$note": {
+                "value": "The \"model context protocol\" is a structural framework designed to enhance the context awareness of models, ensuring they operate effectively within specified parameters. This protocol emphasizes the importance of integrating contextual information into model operations, allowing for more accurate and relevant outputs. Key topics include the identification and incorporation of relevant contextual data, the establishment of guidelines for maintaining context consistency, and the implementation of protocols that govern how models adapt to dynamic contexts. Additionally, the protocol outlines best practices for context management, including the use of metadata and context tags, to ensure models remain aligned with user expectations and task requirements. By adhering to these guidelines, models can achieve improved performance and reliability in diverse applications.",
+                "summary": "The \"model context protocol\" is a structural framework designed to enhance the context awareness of models, ensuring they operate effectively within specified parameters. This protocol emphasizes the importance of integrating contextual information into model operations, allowing for more accurate and relevant outputs. Key topics include the identification and incorporation of relevant contextual data, the establishment of guidelines for maintaining context consistency, and the implementation of protocols that govern how models adapt to dynamic contexts. Additionally, the protocol outlines best practices for context management, including the use of metadata and context tags, to ensure models remain aligned with user expectations and task requirements. By adhering to these guidelines, models can achieve improved performance and reliability in diverse applications."
+            },
+            "$page_added": {
+                "value": "",
+                "summary": ""
+            }
+        },
+        "final_output": {
+            "value": "",
+            "summary": "The \"model context protocol\" is a structural framework aimed at enhancing model context awareness, ensuring effective operation within specified parameters. It emphasizes integrating contextual information for accurate outputs, covering key topics like identifying relevant data, maintaining context consistency, and adapting to dynamic contexts. Best practices include using metadata and context tags. The note was added to a Notion page named 'model context protocol'."
+        }
+    }
+}
