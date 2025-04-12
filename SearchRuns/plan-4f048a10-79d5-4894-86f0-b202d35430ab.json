@@ -1,0 +1,46 @@
+{
+    "id": "plan-4f048a10-79d5-4894-86f0-b202d35430ab",
+    "plan_context": {
+        "query": "Topic:Glass making\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Find a video about the topic 'Glass making', retrieving its transcript and URL, using the provided query data.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_details",
+            "condition": null
+        },
+        {
+            "task": "Using the transcript and URL from the video details, compose a short learning note written as one paragraph that describes the key topics covered in the video and excludes unrelated information. The note should include the URL from the video details.",
+            "inputs": [
+                {
+                    "name": "$video_details",
+                    "description": "The video details containing the transcript and the URL."
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Create a new Notion page with the learning note and URL by writing the composed note onto the page. The page name should be 'Glass making Learning Note'.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The composed learning note including the transcript summary and the URL."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page_created",
+            "condition": null
+        }
+    ]
+}

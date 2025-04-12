@@ -1,0 +1,41 @@
+{
+    "id": "prun-d9080554-f5b3-45ec-b528-afc1e7844494",
+    "plan_id": "plan-74925554-f13a-4dcf-944d-99c7aecf60e5",
+    "current_step_index": 2,
+    "state": "NEED_CLARIFICATION",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [
+            {
+                "id": "clar-0162520b-3a79-4a4e-bb2b-d38af11cc16c",
+                "plan_run_id": "prun-d9080554-f5b3-45ec-b528-afc1e7844494",
+                "category": "Input",
+                "response": null,
+                "step": 2,
+                "user_guidance": "Missing Argument: pagename",
+                "resolved": false,
+                "argument_name": "pagename"
+            }
+        ],
+        "step_outputs": {
+            "$video_info": {
+                "value": "https://www.youtube.com/watch?v=0szO5zt1KBY : okay guys so if you don't know I am a bare minimum Queen but I really wanted my hair to be cute while still doing the bare minimum so your girl got a wig and I wanted it to match my natural color but it was a little too bright but it's gonna be okay so they gave me this itty bitty wig cap and girl y'all know I got a big head so what did they expect me to do with this but it kept sliding off my head so I took it off and y'all I am not doing this right so do not judge me I am not a wig girly but I separated her I teased her out and I put on some makeup to try to make it look better and here is how she turned out do not sleep on those Amazon wigs I think she's cute",
+                "summary": "https://www.youtube.com/watch?v=0szO5zt1KBY : okay guys so if you don't know I am a bare minimum Queen but I really wanted my hair to be cute while still doing the bare minimum so your girl got a wig and I wanted it to match my natural color but it was a little too bright but it's gonna be okay so they gave me this itty bitty wig cap and girl y'all know I got a big head so what did they expect me to do with this but it kept sliding off my head so I took it off and y'all I am not doing this right so do not judge me I am not a wig girly but I separated her I teased her out and I put on some makeup to try to make it look better and here is how she turned out do not sleep on those Amazon wigs I think she's cute"
+            },
+            "$learning_note": {
+                "value": "In the video, the creator, who identifies as a \"bare minimum Queen,\" shares their journey of enhancing their hairstyle with minimal effort by using a wig. They discuss the challenges faced in matching the wig to their natural hair color, as the wig was initially too bright. Additionally, they humorously recount their struggle with a small wig cap that kept slipping off due to their larger head size. Despite not being experienced with wigs, they managed to style it by separating and teasing the hair, and applying makeup to improve the overall look. The video concludes with a positive note, encouraging viewers not to underestimate affordable wigs available on Amazon, as they can still achieve a cute and satisfactory appearance.",
+                "summary": "In the video, the creator, who identifies as a \"bare minimum Queen,\" shares their journey of enhancing their hairstyle with minimal effort by using a wig. They discuss the challenges faced in matching the wig to their natural hair color, as the wig was initially too bright. Additionally, they humorously recount their struggle with a small wig cap that kept slipping off due to their larger head size. Despite not being experienced with wigs, they managed to style it by separating and teasing the hair, and applying makeup to improve the overall look. The video concludes with a positive note, encouraging viewers not to underestimate affordable wigs available on Amazon, as they can still achieve a cute and satisfactory appearance."
+            },
+            "$notion_page_created": {
+                "value": "[{\"id\": \"clar-0162520b-3a79-4a4e-bb2b-d38af11cc16c\", \"plan_run_id\": \"prun-d9080554-f5b3-45ec-b528-afc1e7844494\", \"category\": \"Input\", \"response\": null, \"step\": 2, \"user_guidance\": \"Missing Argument: pagename\", \"resolved\": false, \"argument_name\": \"pagename\"}]",
+                "summary": null
+            }
+        },
+        "final_output": null
+    }
+}

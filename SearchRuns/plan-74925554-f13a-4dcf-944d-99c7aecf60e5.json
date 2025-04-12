@@ -1,0 +1,50 @@
+{
+    "id": "plan-74925554-f13a-4dcf-944d-99c7aecf60e5",
+    "plan_context": {
+        "query": "Topic:Wig-making\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Find a video about Wig-making by retrieving its transcript and URL using the provided topic 'Wig-making'.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_info",
+            "condition": null
+        },
+        {
+            "task": "Compose a short one-paragraph learning note based on the transcript from the video retrieved in the previous step. The note should include key topics covered in the transcript and avoid any unrelated information.",
+            "inputs": [
+                {
+                    "name": "$video_info",
+                    "description": "Video details including the transcript and URL from find_video_tool."
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Create a new page on Notion with a page name related to Wig-making and include the composed learning note along with the video URL retrieved earlier. The page should display both the summary and the URL.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The composed learning note summarizing the transcript."
+                },
+                {
+                    "name": "$video_info",
+                    "description": "The video details including the URL from find_video_tool to be included in the Notion page."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page_created",
+            "condition": null
+        }
+    ]
+}

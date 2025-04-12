@@ -12,11 +12,55 @@ document.getElementById('submitButton').addEventListener('click', async () => {
 
     // Array of loading phrases
     const loadingPhrases = [
+        "Brewing some digital coffee...",
         "Researching...",
-        "Looking for a YouTube Video...",
-        "Summarising a YouTube Video...",
-        "Adding a page to your Notion database..."
+        "Doing a deep dive...",
+        "Wading through the web...",
+        "Skimming through articles...",
+        "Asking the internet nicely...",
+        "Hunting down the facts...",
+        "Peeking behind digital curtains...",
+        "Cross-referencing sources...",
+        "Scanning the archives...",
+        "Checking the latest findings...",
+        "Looking under digital rocks...",
+        "Tapping into expert knowledge...",
+        "Sifting through data dust...",
+        "Reading way too many tabs...",
+        "Googling harder than ever...",
+        "Searching every corner of the internet...",
+        "Putting on research goggles...",
+        "Reading so you don't have to...",
+        "Finding needles in a digital haystack...",
+        "Pulling together everything worth knowing...",
+        "Assembling your answer puzzle...",
+        "Piecing together insights...",
+        "Whispering to the search engine...",
+        "Looking for a YouTube video...",
+        "Summarising a YouTube video...",
+        "Adding a page to your Notion database...",
+        "Scrolling through the internet haystack...",
+        "Gathering some wisdom from the web...",
+        "Dusting off the old data books...",
+        "Summoning the API gods...",
+        "Connecting the dots...",
+        "Crunching some serious bytes...",
+        "Just a sec, assembling the facts...",
+        "Tuning into YouTube frequencies...",
+        "Putting thoughts into Notion...",
+        "Piecing together your answer...",
+        "Typing very fast on a virtual keyboard...",
+        "Loading the brainpower...",
+        "Holding a quick meeting with the algorithms...",
+        "Downloading the latest knowledge...",
+        "Sharpening the pencils of the mind...",
+        "Consulting the knowledge archives...",
+        "Summoning helpful elves (digitally)...",
+        "Synchronizing with Notion...",
+        "Processing your smart request...",
+        "Building a knowledge sandwich..."
     ];
+    
 
     let currentPhraseIndex = 0;
 
@@ -33,7 +77,7 @@ document.getElementById('submitButton').addEventListener('click', async () => {
     let progress = 0;
     const progressInterval = setInterval(() => {
         if (progress < 100) {
-            progress += 10; // Increment progress
+            progress += 0.1; // Increment progress
             progressBar.style.width = progress + '%'; // Update progress bar width
         }
     }, 300); // Update every 300ms
@@ -54,11 +98,14 @@ document.getElementById('submitButton').addEventListener('click', async () => {
 
     if (response.ok) {
         const data = await response.json();
+        // Extract the URL from the output message
+        const urlMatch = data.output.match(/URL: (https:\/\/www\.notion\.so\/[^\s]+)/);
+        const pageUrl = urlMatch ? urlMatch[1] : 'URL not found';
+
         // Display the result in the result div
         resultDiv.innerHTML = `
-            <h2>Learning Note:</h2>
-            <p>${data.output}</p>
-            <p><strong>Summary:</strong> ${data.summary}</p>
+            <h2>View your new page here:</h2>
+            <p>${pageUrl}</p>
         `;
     } else {
         resultDiv.innerText = 'Error fetching data.';

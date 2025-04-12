@@ -1,0 +1,33 @@
+{
+    "id": "prun-ca6fd960-e253-41c6-b1bd-ae9af3957baa",
+    "plan_id": "plan-07f5447c-6e0f-4173-9134-996cb774ccb1",
+    "current_step_index": 2,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$video_info": {
+                "value": "https://www.youtube.com/watch?v=cWc7vYjgnTs : No one must sleep No one must sleep No one must sleep! No one must sleep You, too, o Princess In your cold room Look at the stars, that tremble With love and with hope! But my mystery is shut within me No one will know my name! No, I will say it on your mouth When the daylight shines! And my kiss will break the silence That makes you mine! No one will know his name And, alas, we must die! Vanish, o night! Set, you stars! Set, you stars! At dawn I will win! I will win! I will win!",
+                "summary": "https://www.youtube.com/watch?v=cWc7vYjgnTs : No one must sleep No one must sleep No one must sleep! No one must sleep You, too, o Princess In your cold room Look at the stars, that tremble With love and with hope! But my mystery is shut within me No one will know my name! No, I will say it on your mouth When the daylight shines! And my kiss will break the silence That makes you mine! No one will know his name And, alas, we must die! Vanish, o night! Set, you stars! Set, you stars! At dawn I will win! I will win! I will win!"
+            },
+            "$learning_note": {
+                "value": "The transcript provided is from the famous aria \"Nessun dorma\" from Giacomo Puccini's opera \"Turandot.\" The aria is sung by the character Calaf, who expresses his determination to win the love of Princess Turandot. The lyrics convey themes of mystery, hope, and triumph, as Calaf declares that no one will know his name until he reveals it with a kiss at dawn, symbolizing his victory. The aria is renowned for its powerful and emotional climax, where Calaf confidently proclaims, \"At dawn, I will win!\" This piece is celebrated for its dramatic intensity and the portrayal of unwavering resolve in the face of uncertainty.",
+                "summary": "The transcript provided is from the famous aria \"Nessun dorma\" from Giacomo Puccini's opera \"Turandot.\" The aria is sung by the character Calaf, who expresses his determination to win the love of Princess Turandot. The lyrics convey themes of mystery, hope, and triumph, as Calaf declares that no one will know his name until he reveals it with a kiss at dawn, symbolizing his victory. The aria is renowned for its powerful and emotional climax, where Calaf confidently proclaims, \"At dawn, I will win!\" This piece is celebrated for its dramatic intensity and the portrayal of unwavering resolve in the face of uncertainty."
+            },
+            "$notion_page": {
+                "value": "success",
+                "summary": "success"
+            }
+        },
+        "final_output": {
+            "value": "success",
+            "summary": "The task involved finding a video about opera, using its transcript to create a learning note, and posting it on Notion. The video chosen was an aria from Puccini's \"Turandot,\" specifically \"Nessun dorma,\" sung by Calaf. The learning note highlighted themes of mystery, hope, and triumph, focusing on Calaf's determination to win Princess Turandot's love. The aria's emotional climax and portrayal of resolve were emphasized. The note and video URL were successfully added to a Notion page."
+        }
+    }
+}
