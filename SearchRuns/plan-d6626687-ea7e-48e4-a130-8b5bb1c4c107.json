@@ -1,0 +1,45 @@
+{
+    "id": "plan-d6626687-ea7e-48e4-a130-8b5bb1c4c107",
+    "plan_context": {
+        "query": "Write a short note on how fast quantum computers currently are. It should be one paragraph and in the style of lecture notes.and write it onto a notion page called quantum",
+        "tool_ids": [
+            "calculator_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Search for information on how fast quantum computers currently are.",
+            "inputs": [],
+            "tool_id": "search_tool",
+            "output": "$quantum_search",
+            "condition": null
+        },
+        {
+            "task": "Compose a short note in one paragraph and in the style of lecture notes on the current speed of quantum computers using the information obtained from the search.",
+            "inputs": [
+                {
+                    "name": "$quantum_search",
+                    "description": "Search results on how fast quantum computers currently are"
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$composed_note",
+            "condition": null
+        },
+        {
+            "task": "Write the composed note onto a notion page called quantum.",
+            "inputs": [
+                {
+                    "name": "$composed_note",
+                    "description": "The note on how fast quantum computers currently are written in lecture note style"
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page_update",
+            "condition": null
+        }
+    ]
+}

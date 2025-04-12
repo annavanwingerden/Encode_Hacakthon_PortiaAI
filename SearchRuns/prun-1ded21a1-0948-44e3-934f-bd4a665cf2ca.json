@@ -1,0 +1,25 @@
+{
+    "id": "prun-1ded21a1-0948-44e3-934f-bd4a665cf2ca",
+    "plan_id": "plan-46225a6e-6d26-4fb7-9d1c-b3f887f81666",
+    "current_step_index": 0,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$notion_page_note": {
+                "value": "",
+                "summary": ""
+            }
+        },
+        "final_output": {
+            "value": "",
+            "summary": "Quantum computers, leveraging principles of superposition and entanglement, can perform complex calculations much faster than classical computers for specific tasks. They excel in solving problems like factoring large numbers and simulating quantum systems, which are infeasible for classical systems. However, their speed advantage is task-dependent and not universal. Current quantum computers are still in developmental stages, with limited qubit coherence and error rates, but they hold promise for future breakthroughs."
+        }
+    }
+}

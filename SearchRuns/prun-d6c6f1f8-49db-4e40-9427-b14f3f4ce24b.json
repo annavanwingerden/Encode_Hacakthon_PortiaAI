@@ -1,0 +1,29 @@
+{
+    "id": "prun-d6c6f1f8-49db-4e40-9427-b14f3f4ce24b",
+    "plan_id": "plan-ae1682f1-3357-46a2-a490-149b64b17d19",
+    "current_step_index": 1,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$note_content": {
+                "value": "As of 2025, quantum computers have made significant strides in speed and computational power, leveraging the principles of superposition and entanglement to perform complex calculations much faster than classical computers. Quantum computers excel in tasks such as factoring large numbers, optimizing complex systems, and simulating quantum physics, which are infeasible for classical systems due to their exponential complexity. The performance of quantum computers is often measured in terms of qubits, with leading systems now operating with hundreds of qubits, allowing them to solve specific problems exponentially faster than the best classical supercomputers. Despite challenges such as error rates and decoherence, advancements in quantum error correction and qubit coherence times continue to enhance their reliability and scalability. The primary advantage of quantum computers lies in their ability to process vast amounts of data simultaneously, offering transformative potential in fields like cryptography, materials science, and artificial intelligence.",
+                "summary": "As of 2025, quantum computers have made significant strides in speed and computational power, leveraging the principles of superposition and entanglement to perform complex calculations much faster than classical computers. Quantum computers excel in tasks such as factoring large numbers, optimizing complex systems, and simulating quantum physics, which are infeasible for classical systems due to their exponential complexity. The performance of quantum computers is often measured in terms of qubits, with leading systems now operating with hundreds of qubits, allowing them to solve specific problems exponentially faster than the best classical supercomputers. Despite challenges such as error rates and decoherence, advancements in quantum error correction and qubit coherence times continue to enhance their reliability and scalability. The primary advantage of quantum computers lies in their ability to process vast amounts of data simultaneously, offering transformative potential in fields like cryptography, materials science, and artificial intelligence."
+            },
+            "$notion_page_response": {
+                "value": "",
+                "summary": ""
+            }
+        },
+        "final_output": {
+            "value": "",
+            "summary": "The note on quantum computers highlights their rapid advancements in speed and computational power as of 2025, utilizing superposition and entanglement to outperform classical systems in complex calculations. Quantum computers excel in factoring, optimization, and quantum simulations, with leading systems operating with hundreds of qubits. Despite challenges like error rates, improvements in error correction enhance their reliability. Their ability to process vast data simultaneously offers transformative potential in cryptography, materials science, and AI. The note was added to a Notion page named 'quantum'."
+        }
+    }
+}

@@ -7,8 +7,11 @@ from portia import (
     example_tool_registry,
 )
 from my_custom_tools.registry import custom_tool_registry
+import os
 
-load_dotenv('local.env')
+load_dotenv('.env.local')
+openai_api_key = os.getenv("OPENAI_API_KEY")
+TAGIVLY_API_KEY = os.getenv("TAGIVLY_API_KEY")
 
 all_tool_registry = example_tool_registry + custom_tool_registry
 
@@ -20,7 +23,8 @@ my_config = Config.from_default(
 
 # Instantiate Portia with the default config which uses Open AI, and with some example tools.
 portia = Portia(tools=all_tool_registry, config = my_config)
+
+user_query = input("Write a topic you want to learn about: ")
 # Run the test query and print the output!
-plan_run = portia.run('Write a short note on how fast quantum computers currently are. It should be one paragraph and in the style of lecture notes.'
-                      + 'and write it onto a notion page called quantum')
+plan_run = portia.run("Topic:"+user_query+"\n"+"Compose a short note on this topic in the style of lecture notes, ensuring the note is written as one paragraph. The note should include information describing the key topics. Then, add the note onto a Notion page named "+user_query)
 print(plan_run.model_dump_json(indent=2))
