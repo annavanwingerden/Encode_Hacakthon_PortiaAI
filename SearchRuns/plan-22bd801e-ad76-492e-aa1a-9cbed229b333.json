@@ -1,0 +1,46 @@
+{
+    "id": "plan-22bd801e-ad76-492e-aa1a-9cbed229b333",
+    "plan_context": {
+        "query": "Topic:Royal Navy\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "For the topic 'Royal Navy', find a video that matches the topic and returns its transcript and URL as provided in the query.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_data",
+            "condition": null
+        },
+        {
+            "task": "Using the transcript and URL from the video data in $video_data, compose a short one-paragraph learning note that includes the key topics related to the Royal Navy while avoiding unrelated content, and ensure the video URL is included in the note.",
+            "inputs": [
+                {
+                    "name": "$video_data",
+                    "description": "Video data containing transcript and URL for the topic 'Royal Navy'."
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Create a new page on Notion with the title 'Royal Navy Learning Note' and write the composed learning note from $learning_note onto this page, ensuring that the note includes the video URL.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The composed learning note including key topics and the video URL."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page",
+            "condition": null
+        }
+    ]
+}

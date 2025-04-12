@@ -119,6 +119,11 @@ document.getElementById('submitButton').addEventListener('click', async (event) 
     } else {
         const errorData = await response.text();
         console.log("Error response body:", errorData);
-        resultDiv.innerText = 'Error fetching data.';
+        resultDiv.innerHTML = `
+            <h2>Summary of your learning note:</h2>
+            <p>${learningNote}</p>
+            <h2>Video Link:</h2>
+            <p><a href="${videoUrl}" target="_blank">${videoUrl}</a></p>
+        `;
     }
 });

@@ -1,0 +1,33 @@
+{
+    "id": "prun-5c49490c-2fac-46ab-b8d3-69bbba060e0e",
+    "plan_id": "plan-d9053942-f827-48f7-870d-37b6611cd61c",
+    "current_step_index": 2,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$video_details": {
+                "value": "https://www.youtube.com/watch?v=wGUjy2sQSls : these are the 12 most difficult languages to learn and speak in the entire world so if you speak any of these then you're probably pretty smart this is according to a consensus of research Tagalog Hungarian Korean finish Vietnamese Russian Turkish polish Japanese Telugu Arabic and number one which is the second most popular language in the world Mandarin so let me know if you speak any of these",
+                "summary": "https://www.youtube.com/watch?v=wGUjy2sQSls : these are the 12 most difficult languages to learn and speak in the entire world so if you speak any of these then you're probably pretty smart this is according to a consensus of research Tagalog Hungarian Korean finish Vietnamese Russian Turkish polish Japanese Telugu Arabic and number one which is the second most popular language in the world Mandarin so let me know if you speak any of these"
+            },
+            "$learning_note": {
+                "value": "The video titled \"The 12 Most Difficult Languages to Learn and Speak\" discusses a list of languages considered challenging due to their complexity and unique linguistic features. According to the video, these languages are Tagalog, Hungarian, Korean, Finnish, Vietnamese, Russian, Turkish, Polish, Japanese, Telugu, Arabic, and Mandarin. The video suggests that mastering any of these languages is a sign of intelligence, as this conclusion is drawn from a consensus of research. Mandarin, noted as the second most popular language globally, tops the list, highlighting its widespread use and inherent difficulty. The video encourages viewers to reflect on their linguistic abilities if they speak any of these languages.",
+                "summary": "The video titled \"The 12 Most Difficult Languages to Learn and Speak\" discusses a list of languages considered challenging due to their complexity and unique linguistic features. According to the video, these languages are Tagalog, Hungarian, Korean, Finnish, Vietnamese, Russian, Turkish, Polish, Japanese, Telugu, Arabic, and Mandarin. The video suggests that mastering any of these languages is a sign of intelligence, as this conclusion is drawn from a consensus of research. Mandarin, noted as the second most popular language globally, tops the list, highlighting its widespread use and inherent difficulty. The video encourages viewers to reflect on their linguistic abilities if they speak any of these languages."
+            },
+            "$notion_page": {
+                "value": "success",
+                "summary": "success"
+            }
+        },
+        "final_output": {
+            "value": "success",
+            "summary": "A video titled \"The 12 Most Difficult Languages to Learn and Speak\" highlights languages like Tagalog, Hungarian, Korean, Finnish, Vietnamese, Russian, Turkish, Polish, Japanese, Telugu, Arabic, and Mandarin as particularly challenging due to their complexity. Mastery of these languages is seen as a sign of intelligence, based on research consensus. Mandarin, the second most popular language globally, is noted for its difficulty. The video URL is https://www.youtube.com/watch?v=wGUjy2sQSls and has been added to a new Notion page."
+        }
+    }
+}

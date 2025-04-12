@@ -1,0 +1,41 @@
+{
+    "id": "prun-03089d1a-3c1c-49a4-99fb-d234eb1b7818",
+    "plan_id": "plan-8a68b362-76ac-4bec-b6da-54d9bf81d998",
+    "current_step_index": 2,
+    "state": "NEED_CLARIFICATION",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [
+            {
+                "id": "clar-2f178f3a-df0a-4858-85bc-2be2d700d79e",
+                "plan_run_id": "prun-03089d1a-3c1c-49a4-99fb-d234eb1b7818",
+                "category": "Input",
+                "response": null,
+                "step": 2,
+                "user_guidance": "Missing Argument: pagename",
+                "resolved": false,
+                "argument_name": "pagename"
+            }
+        ],
+        "step_outputs": {
+            "$video_details": {
+                "value": "https://www.youtube.com/watch?v=6l6YlZIpdus : every time before you could deploy you had to complete 3 months at 29 Palms California and 29 Palms was like the surface of the Moon there was not a blade of grass that could grow temperatures over 100 every single day you're conducting ranges and assaults on 300 meter ranges with all your gear in that kind of heat and again the training is harder than the war you're sweating through your clothes you're carrying ammunition and you could be out there for hours on this particular assault range Mort hitting the battlefield snipers rockets and stuff like that before the Infantry assaults it really some of it was like almost World War I World War II style training but they're preparing you for the worst",
+                "summary": "https://www.youtube.com/watch?v=6l6YlZIpdus : every time before you could deploy you had to complete 3 months at 29 Palms California and 29 Palms was like the surface of the Moon there was not a blade of grass that could grow temperatures over 100 every single day you're conducting ranges and assaults on 300 meter ranges with all your gear in that kind of heat and again the training is harder than the war you're sweating through your clothes you're carrying ammunition and you could be out there for hours on this particular assault range Mort hitting the battlefield snipers rockets and stuff like that before the Infantry assaults it really some of it was like almost World War I World War II style training but they're preparing you for the worst"
+            },
+            "$learning_note": {
+                "value": "The video, accessible at [https://www.youtube.com/watch?v=6l6YlZIpdus](https://www.youtube.com/watch?v=6l6YlZIpdus), discusses the rigorous training regimen that Marines undergo before deployment, specifically highlighting the three-month preparation period at 29 Palms, California. This location is described as harsh and barren, akin to the surface of the Moon, with temperatures exceeding 100 degrees daily. The training involves conducting ranges and assaults on 300-meter ranges while carrying full gear, simulating conditions that are more challenging than actual combat. The exercises include battlefield scenarios with mortars, snipers, and rockets, reminiscent of World War I and II tactics, designed to prepare Marines for the worst possible situations.",
+                "summary": "The video, accessible at [https://www.youtube.com/watch?v=6l6YlZIpdus](https://www.youtube.com/watch?v=6l6YlZIpdus), discusses the rigorous training regimen that Marines undergo before deployment, specifically highlighting the three-month preparation period at 29 Palms, California. This location is described as harsh and barren, akin to the surface of the Moon, with temperatures exceeding 100 degrees daily. The training involves conducting ranges and assaults on 300-meter ranges while carrying full gear, simulating conditions that are more challenging than actual combat. The exercises include battlefield scenarios with mortars, snipers, and rockets, reminiscent of World War I and II tactics, designed to prepare Marines for the worst possible situations."
+            },
+            "$notion_page": {
+                "value": "[{\"id\": \"clar-2f178f3a-df0a-4858-85bc-2be2d700d79e\", \"plan_run_id\": \"prun-03089d1a-3c1c-49a4-99fb-d234eb1b7818\", \"category\": \"Input\", \"response\": null, \"step\": 2, \"user_guidance\": \"Missing Argument: pagename\", \"resolved\": false, \"argument_name\": \"pagename\"}]",
+                "summary": null
+            }
+        },
+        "final_output": null
+    }
+}

@@ -88,9 +88,12 @@ If you encounter issues with the Notion integration, ensure that the `notion_int
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## Future development
-We will integrate user authentification & ability to save their own Notion databases.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Examples
+
+![Homepage](images/homepage.png)
+![Agent Execution](images/generating.png)
+![Notion Summary Page](images/notion_summary.png)

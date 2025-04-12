@@ -1,0 +1,33 @@
+{
+    "id": "prun-723497c9-dbcb-4193-a2c8-f6fb27bb0237",
+    "plan_id": "plan-22bd801e-ad76-492e-aa1a-9cbed229b333",
+    "current_step_index": 2,
+    "state": "COMPLETE",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$video_data": {
+                "value": "https://www.youtube.com/watch?v=PfkW_wvQ6Ac : welcome to your 6cond update from across the Royal Navy We're with HMS Dauntless as the destroyer battles drones ahead of the global carrier strike group mission The type 45 fought off hundreds of attacks to recreate potential combat scenarios Dauntless will be among the powerful warships and aircraft protecting flagship HF Wales as she leads the task group into the Indo Pacific Wildcat attack helicopters also shot down drones using air-to-air missiles during their own strike group rehearsals 815 Naval Air Squadron fired the Marlet weapon which is designed to eliminate small fast moving threats Another of the dedicated guardians of the CSG and a Merlin aircraft 820 Naval Air Squadron employing with their specialist anti-ubmarine warfare helicopters as well as all those equipped surveillance and control Royal Navy warships and helicopters monitor the Russian survey ships at Caster UK waters HMS Cattop and HMS Somerset were deployed to track movements to the channel and North Sea That's your lot We'll be back with more in two weeks [Music]",
+                "summary": "https://www.youtube.com/watch?v=PfkW_wvQ6Ac : welcome to your 6cond update from across the Royal Navy We're with HMS Dauntless as the destroyer battles drones ahead of the global carrier strike group mission The type 45 fought off hundreds of attacks to recreate potential combat scenarios Dauntless will be among the powerful warships and aircraft protecting flagship HF Wales as she leads the task group into the Indo Pacific Wildcat attack helicopters also shot down drones using air-to-air missiles during their own strike group rehearsals 815 Naval Air Squadron fired the Marlet weapon which is designed to eliminate small fast moving threats Another of the dedicated guardians of the CSG and a Merlin aircraft 820 Naval Air Squadron employing with their specialist anti-ubmarine warfare helicopters as well as all those equipped surveillance and control Royal Navy warships and helicopters monitor the Russian survey ships at Caster UK waters HMS Cattop and HMS Somerset were deployed to track movements to the channel and North Sea That's your lot We'll be back with more in two weeks [Music]"
+            },
+            "$learning_note": {
+                "value": "In the latest update from the Royal Navy, HMS Dauntless is highlighted for its role in simulating combat scenarios by fending off drone attacks as part of preparations for the global carrier strike group mission. This mission will see Dauntless among the formidable warships and aircraft safeguarding the flagship, HMS Queen Elizabeth, as it leads the task group into the Indo-Pacific region. Wildcat attack helicopters from the 815 Naval Air Squadron also participated, successfully deploying Marlet air-to-air missiles to neutralize small, fast-moving threats. Additionally, the Royal Navy's vigilance extends to monitoring Russian survey ships in UK waters, with HMS Cattistock and HMS Somerset tracking their movements in the Channel and North Sea. For more details, watch the video here: [https://www.youtube.com/watch?v=PfkW_wvQ6Ac](https://www.youtube.com/watch?v=PfkW_wvQ6Ac).",
+                "summary": "In the latest update from the Royal Navy, HMS Dauntless is highlighted for its role in simulating combat scenarios by fending off drone attacks as part of preparations for the global carrier strike group mission. This mission will see Dauntless among the formidable warships and aircraft safeguarding the flagship, HMS Queen Elizabeth, as it leads the task group into the Indo-Pacific region. Wildcat attack helicopters from the 815 Naval Air Squadron also participated, successfully deploying Marlet air-to-air missiles to neutralize small, fast-moving threats. Additionally, the Royal Navy's vigilance extends to monitoring Russian survey ships in UK waters, with HMS Cattistock and HMS Somerset tracking their movements in the Channel and North Sea. For more details, watch the video here: [https://www.youtube.com/watch?v=PfkW_wvQ6Ac](https://www.youtube.com/watch?v=PfkW_wvQ6Ac)."
+            },
+            "$notion_page": {
+                "value": "success",
+                "summary": "success"
+            }
+        },
+        "final_output": {
+            "value": "success",
+            "summary": "A video about the Royal Navy highlights HMS Dauntless's role in simulating combat scenarios by countering drone attacks in preparation for a global carrier strike group mission. The mission involves safeguarding the flagship HMS Queen Elizabeth in the Indo-Pacific. Wildcat helicopters from the 815 Naval Air Squadron used Marlet missiles to neutralize threats. The Royal Navy also monitors Russian survey ships in UK waters. The learning note and video URL were successfully added to a Notion page."
+        }
+    }
+}
