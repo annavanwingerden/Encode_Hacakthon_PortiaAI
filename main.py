@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 load_dotenv('.env.local')
 openai_api_key = os.getenv("OPENAI_API_KEY")
-TAGIVLY_API_KEY = os.getenv("TAGIVLY_API_KEY")
+TAVILY_API_KEY = os.getenv("TAGIVLY_API_KEY")
 
 all_tool_registry = example_tool_registry + custom_tool_registry
 
