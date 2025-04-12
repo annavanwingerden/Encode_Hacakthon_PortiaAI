@@ -1,0 +1,46 @@
+{
+    "id": "plan-9ff16421-d1e7-4781-baa9-8edbeeb22deb",
+    "plan_context": {
+        "query": "Topic:Quantam Physics\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write this onto a new page on Notion",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Find a video about Quantam Physics and retrieve its transcript including details relevant to the topic.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_transcript",
+            "condition": null
+        },
+        {
+            "task": "Compose a short one-paragraph learning note from the transcript provided, ensuring that the note includes key topics related to Quantam Physics and excludes any unrelated content.",
+            "inputs": [
+                {
+                    "name": "$video_transcript",
+                    "description": "Transcript from the video about Quantam Physics."
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Create a new page on Notion with the title 'Quantam Physics Learning Note' and include the composed learning note on that page.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The composed one-paragraph learning note on Quantam Physics."
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page",
+            "condition": null
+        }
+    ]
+}

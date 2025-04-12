@@ -2,6 +2,13 @@ document.getElementById('submitButton').addEventListener('click', async () => {
     const topic = document.getElementById('topicInput').value;
     const loadingMessage = document.getElementById('loading');
     const resultDiv = document.getElementById('result');
+    const progressContainer = document.getElementById('progressContainer');
+    const progressBar = document.getElementById('progressBar');
+
+    // Show loading message and progress bar
+    loadingMessage.style.display = 'block';
+    progressContainer.style.display = 'block';
+    progressBar.style.width = '0%'; // Reset progress bar
 
     // Array of loading phrases
     const loadingPhrases = [
@@ -20,9 +27,16 @@ document.getElementById('submitButton').addEventListener('click', async () => {
     };
 
     // Show loading message and start updating it
-    loadingMessage.style.display = 'block';
-    resultDiv.innerText = ''; // Clear previous results
     const loadingInterval = setInterval(updateLoadingMessage, 1000); // Update every second
+
+    // Simulate progress
+    let progress = 0;
+    const progressInterval = setInterval(() => {
+        if (progress < 100) {
+            progress += 10; // Increment progress
+            progressBar.style.width = progress + '%'; // Update progress bar width
+        }
+    }, 300); // Update every 300ms
 
     const response = await fetch('/run', {
         method: 'POST',
@@ -32,9 +46,11 @@ document.getElementById('submitButton').addEventListener('click', async () => {
         body: JSON.stringify({ topic }),
     });
 
-    // Stop updating the loading message
+    // Stop updating the loading message and progress
     clearInterval(loadingInterval);
+    clearInterval(progressInterval);
     loadingMessage.style.display = 'none'; // Hide loading message
+    progressContainer.style.display = 'none'; // Hide progress bar
 
     if (response.ok) {
         const data = await response.json();
@@ -43,8 +59,3 @@ document.getElementById('submitButton').addEventListener('click', async () => {
         resultDiv.innerText = 'Error fetching data.';
     }
 });
-
-function toggleMenu() {
-    const nav = document.getElementById('navLinks');
-    nav.classList.toggle('active');
-  }

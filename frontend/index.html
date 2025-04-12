@@ -29,15 +29,21 @@
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
         </svg>
-        <input type="text" placeholder="What do you want to learn about?" />
-        <button>Generate</button>
+        <input type="text" id="topicInput" placeholder="What do you want to learn about?" />
+        <button id="submitButton">Generate</button>
+        </div>
+        <!-- Loading Message -->
+        <div id="loading" style="display: none;">Loading...</div>
+        <!-- Progress Bar -->
+        <div id="progressContainer" style="display: none; margin-top: 1rem;">
+            <div id="progressBar" style="width: 0%; height: 20px; background-color: #2563eb; border-radius: 10px;"></div>
         </div>
         <div class="examples">
         <p>Try something like:</p>
         <span class="pill">Quantum Physics</span>
         <span class="pill">French Revolution</span>
         <span class="pill">How Bhozín Works</span>
-        <span class="pill">Snakespeare</span>
+        <span class="pill">Shakespeare</span>
         </div>
     <script src="/static/script.js"></script>
 </body>
