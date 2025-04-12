@@ -14,9 +14,9 @@ class NotionWriteTool(Tool[str]):
     
     id: str = "notion_write_tool"
     name: str = "Notion write tool"
-    description: str = "Creates a new page then writes the first paragraph"
+    description: str = "Writes information into a specified notion page"
     args_schema: type[BaseModel] = NotionWriteToolSchema
-    output_schema: tuple[str, str] = ("str", "A string indicating the location of the new page")
+    output_schema: tuple[str, str] = ("str", "A string indicating the name of the page")
 
     def run(self, _: ToolRunContext, pagename: str, pagecontents: str) -> str:
         """Run the NotionWriteTool"""

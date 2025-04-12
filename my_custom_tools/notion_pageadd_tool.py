@@ -16,7 +16,7 @@ class NotionPageAddTool(Tool[str]):
     name: str = "Notion page add tool"
     description: str = "Creates a new page then writes the first paragraph"
     args_schema: type[BaseModel] = NotionPageAddToolSchema
-    output_schema: tuple[str, str] = ("str", "A string indicating the location of the new page")
+    output_schema: tuple[str, str] = ("str", "A string indicating the name of the new page")
 
     def run(self, _: ToolRunContext, pagename: str, pagecontents: str) -> str:
         """Run the NotionPageAddTool"""
