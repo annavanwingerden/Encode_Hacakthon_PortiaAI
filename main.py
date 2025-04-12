@@ -8,7 +8,7 @@ from portia import (
 )
 from my_custom_tools.registry import custom_tool_registry
 
-load_dotenv('local.env')
+load_dotenv('.env.local')
 
 all_tool_registry = example_tool_registry + custom_tool_registry
 
