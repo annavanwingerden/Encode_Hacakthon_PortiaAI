@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 from portia.tool import Tool, ToolRunContext
 
 class NotionPageAddToolSchema(BaseModel):
-    """Schema defining the inpputs for the NotionPageAddTool"""
+    """Schema defining the inputs for the NotionPageAddTool"""
     pagename: str = Field(...,
                           description = "Name of page to be created")
     pagecontents: str = Field(...,
