@@ -1,0 +1,50 @@
+{
+    "id": "plan-ef5a0461-dcf4-4b39-9300-a7efbad2d676",
+    "plan_context": {
+        "query": "Topic:Glass making\nFind a video about this topic and use its transcript to compose a short learning note, ensuring the note is written as one paragraph. The note should include information describing the key topics covered and should avoid information from the transcript that isn't related to the topic. Write the summary and the URL onto a new page on Notion. Make sure to include the URL.",
+        "tool_ids": [
+            "calculator_tool",
+            "find_video_tool",
+            "notion_pageadd_tool",
+            "search_tool",
+            "weather_tool"
+        ]
+    },
+    "steps": [
+        {
+            "task": "Find a video about Glass making using the query provided.",
+            "inputs": [],
+            "tool_id": "find_video_tool",
+            "output": "$video_details",
+            "condition": null
+        },
+        {
+            "task": "Compose a short learning note in one paragraph using the transcript from the video details provided. The note should include key topics about Glass making and avoid unrelated information.",
+            "inputs": [
+                {
+                    "name": "$video_details",
+                    "description": "Video details containing the transcript and URL about Glass making"
+                }
+            ],
+            "tool_id": "llm_tool",
+            "output": "$learning_note",
+            "condition": null
+        },
+        {
+            "task": "Write the composed learning note and the video URL onto a new page on Notion. Ensure that both the note ($learning_note) and the URL from the video details ($video_details) are included in the page.",
+            "inputs": [
+                {
+                    "name": "$learning_note",
+                    "description": "The learning note summarizing key topics about Glass making"
+                },
+                {
+                    "name": "$video_details",
+                    "description": "Video details which include the URL of the video"
+                }
+            ],
+            "tool_id": "notion_pageadd_tool",
+            "output": "$notion_page",
+            "condition": null
+        }
+    ]
+}

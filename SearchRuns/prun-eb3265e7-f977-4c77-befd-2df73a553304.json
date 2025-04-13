@@ -1,0 +1,41 @@
+{
+    "id": "prun-eb3265e7-f977-4c77-befd-2df73a553304",
+    "plan_id": "plan-ef5a0461-dcf4-4b39-9300-a7efbad2d676",
+    "current_step_index": 2,
+    "state": "NEED_CLARIFICATION",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [
+            {
+                "id": "clar-19687115-0815-441c-bbaa-967a8ae64338",
+                "plan_run_id": "prun-eb3265e7-f977-4c77-befd-2df73a553304",
+                "category": "Input",
+                "response": null,
+                "step": 2,
+                "user_guidance": "Missing Argument: pagename",
+                "resolved": false,
+                "argument_name": "pagename"
+            }
+        ],
+        "step_outputs": {
+            "$video_details": {
+                "value": "https://www.youtube.com/watch?v=-z1P2cK9Rro : glass industry glass is a transparent or translucent material it is non-crystalline or a morphous substance although it appears in a solid state it is not a true solid it may be considered as a frozen liquid it acquires solid state appearance because of increase in viscosity on rapid cooling so glass is described as a super cool liquid manufact of glass the manufacturer of glass involves three steps Fusion of raw materials working with molten mass and a kneeling the raw material used for glass are soda ash na2 CO3 Limestone ca3 and sand si2 these materials are taken in required proportion and thoroughly mixed and ground to get a powder called batch batch is mixed with some broken glass called cullet cullet helps in lowering the melting temperature of the raw materials the whole mass is heated to 1,000° centigrate in a furnace the following chemical reaction takes place and gives glass in a liquid state impurities called glass Gall rise to the surface and are removed at this stage salts are added to get colored glass working with molten Mass the fused Mass obtained in the above step is allowed to cool but still maintained in a liquid state the liquid glass is poured into molds of required shapes analing usually glass obtained by rapid cooling is brittle so glass is passed through a high temperature zone then a low temperature zone in a long narrowed chamber by conveyor Bel belt where it cools slowly giving transparent glass this process is called analing analing strengthens the glass types of glasses their properties and uses soda glass or soft glass is easily fusible and used for window glass and Bottles Pyrex glass is used for laboratory glassware quartz glass is used in electrical bulbs and Optical instruments Flint glass is used in Optics hard glass fuses with difficulty and is resistant to water and acids it is used for a hard glass apparatus borosilicate glass is of low expansion and is resistant to shock and chemicals it is used for baking dishes laboratory glasswar and Pipelines",
+                "summary": "https://www.youtube.com/watch?v=-z1P2cK9Rro : glass industry glass is a transparent or translucent material it is non-crystalline or a morphous substance although it appears in a solid state it is not a true solid it may be considered as a frozen liquid it acquires solid state appearance because of increase in viscosity on rapid cooling so glass is described as a super cool liquid manufact of glass the manufacturer of glass involves three steps Fusion of raw materials working with molten mass and a kneeling the raw material used for glass are soda ash na2 CO3 Limestone ca3 and sand si2 these materials are taken in required proportion and thoroughly mixed and ground to get a powder called batch batch is mixed with some broken glass called cullet cullet helps in lowering the melting temperature of the raw materials the whole mass is heated to 1,000° centigrate in a furnace the following chemical reaction takes place and gives glass in a liquid state impurities called glass Gall rise to the surface and are removed at this stage salts are added to get colored glass working with molten Mass the fused Mass obtained in the above step is allowed to cool but still maintained in a liquid state the liquid glass is poured into molds of required shapes analing usually glass obtained by rapid cooling is brittle so glass is passed through a high temperature zone then a low temperature zone in a long narrowed chamber by conveyor Bel belt where it cools slowly giving transparent glass this process is called analing analing strengthens the glass types of glasses their properties and uses soda glass or soft glass is easily fusible and used for window glass and Bottles Pyrex glass is used for laboratory glassware quartz glass is used in electrical bulbs and Optical instruments Flint glass is used in Optics hard glass fuses with difficulty and is resistant to water and acids it is used for a hard glass apparatus borosilicate glass is of low expansion and is resistant to shock and chemicals it is used for baking dishes laboratory glasswar and Pipelines"
+            },
+            "$learning_note": {
+                "value": "Glass is a unique material characterized by its transparent or translucent nature and is classified as a non-crystalline or amorphous substance, often described as a supercooled liquid due to its solid-like appearance resulting from increased viscosity upon rapid cooling. The manufacturing process of glass involves three main steps: the fusion of raw materials, working with the molten mass, and annealing. The raw materials, including soda ash (Na2CO3), limestone (CaCO3), and sand (SiO2), are mixed with cullet to lower the melting temperature, then heated to 1,000°C to form liquid glass. Impurities are removed, and salts may be added for color. The molten glass is shaped in molds and undergoes annealing, a process of controlled cooling that strengthens the glass. Various types of glass, such as soda glass, Pyrex, quartz, flint, and borosilicate, each have distinct properties and uses, ranging from window panes and laboratory glassware to optical instruments and baking dishes.",
+                "summary": "Glass is a unique material characterized by its transparent or translucent nature and is classified as a non-crystalline or amorphous substance, often described as a supercooled liquid due to its solid-like appearance resulting from increased viscosity upon rapid cooling. The manufacturing process of glass involves three main steps: the fusion of raw materials, working with the molten mass, and annealing. The raw materials, including soda ash (Na2CO3), limestone (CaCO3), and sand (SiO2), are mixed with cullet to lower the melting temperature, then heated to 1,000°C to form liquid glass. Impurities are removed, and salts may be added for color. The molten glass is shaped in molds and undergoes annealing, a process of controlled cooling that strengthens the glass. Various types of glass, such as soda glass, Pyrex, quartz, flint, and borosilicate, each have distinct properties and uses, ranging from window panes and laboratory glassware to optical instruments and baking dishes."
+            },
+            "$notion_page": {
+                "value": "[{\"id\": \"clar-19687115-0815-441c-bbaa-967a8ae64338\", \"plan_run_id\": \"prun-eb3265e7-f977-4c77-befd-2df73a553304\", \"category\": \"Input\", \"response\": null, \"step\": 2, \"user_guidance\": \"Missing Argument: pagename\", \"resolved\": false, \"argument_name\": \"pagename\"}]",
+                "summary": null
+            }
+        },
+        "final_output": null
+    }
+}

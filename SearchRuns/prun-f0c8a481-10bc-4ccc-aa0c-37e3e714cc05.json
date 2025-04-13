@@ -1,0 +1,30 @@
+{
+    "id": "prun-f0c8a481-10bc-4ccc-aa0c-37e3e714cc05",
+    "plan_id": "plan-39aa3693-3250-4b03-924b-5c7d6897f5a0",
+    "current_step_index": 2,
+    "state": "IN_PROGRESS",
+    "execution_context": {
+        "end_user_id": null,
+        "additional_data": {},
+        "planning_agent_system_context_extension": null,
+        "execution_agent_system_context_extension": null
+    },
+    "outputs": {
+        "clarifications": [],
+        "step_outputs": {
+            "$video_data": {
+                "value": "https://www.youtube.com/watch?v=H3zxMu-1hYs : Welcome back to Quiz Blitz Guess The voice and the song! Disney Edition! Can you guess 35 Disney characters? Let's go First Disney Voice Who did you just listen to? Yes it's Anxiety from Inside Out 2 Next Disney song Rapunzel Any idea who could that be? Joy Next voice Envy Next track, are you ready? Dory Next Disney song Who was that? It's Elsa Who's talking? Disgust Who's next? Moana! Great It's Simba singing! Well played Next track, are you ready? Who did you just hear? Johnny Let's keep going! 3, 2, 1 Could you recognize the voice? Miguel Who's next? Guess the singer You got it! It's Meena Ready for the next round? Well played if you recognized Pocahontas singing Round 15 Any ideas? You got it! It's Riley Yes! It's Anna 3, 2, 1, next song What's your guess? It's Jasmine Round 18, ready? Olaf Next Disney song It was the voice of Lemur Who's singing? That's right, it's Bloofy Let's keep going! 3, 2, 1 That's right, it's Maui Ready for the next round? You got it! It's Clay Can you guess this one? It's Dolores Well played if you recognized Snow White singing Next track, are you ready? It's Poppy Next track, are you ready? Isabela Ready for the next round? Yes! It's Genie Let's hear the next song Who was the singer? It's Ash singing! Well played Guess who's singing You know this character Belle Next track, are you ready? Nostalgia Next song Gunter 3, 2, 1, next song It's Megara singing! Well played Next song Rosita! Great Will you be able to guess all the characters in this Disney quiz? Good luck Well played if you recognized Ariel singing Listen carefully and guess who's singing Li Shang Pick your next Challenge and make sure to like and subscribe.",
+                "summary": "https://www.youtube.com/watch?v=H3zxMu-1hYs : Welcome back to Quiz Blitz Guess The voice and the song! Disney Edition! Can you guess 35 Disney characters? Let's go First Disney Voice Who did you just listen to? Yes it's Anxiety from Inside Out 2 Next Disney song Rapunzel Any idea who could that be? Joy Next voice Envy Next track, are you ready? Dory Next Disney song Who was that? It's Elsa Who's talking? Disgust Who's next? Moana! Great It's Simba singing! Well played Next track, are you ready? Who did you just hear? Johnny Let's keep going! 3, 2, 1 Could you recognize the voice? Miguel Who's next? Guess the singer You got it! It's Meena Ready for the next round? Well played if you recognized Pocahontas singing Round 15 Any ideas? You got it! It's Riley Yes! It's Anna 3, 2, 1, next song What's your guess? It's Jasmine Round 18, ready? Olaf Next Disney song It was the voice of Lemur Who's singing? That's right, it's Bloofy Let's keep going! 3, 2, 1 That's right, it's Maui Ready for the next round? You got it! It's Clay Can you guess this one? It's Dolores Well played if you recognized Snow White singing Next track, are you ready? It's Poppy Next track, are you ready? Isabela Ready for the next round? Yes! It's Genie Let's hear the next song Who was the singer? It's Ash singing! Well played Guess who's singing You know this character Belle Next track, are you ready? Nostalgia Next song Gunter 3, 2, 1, next song It's Megara singing! Well played Next song Rosita! Great Will you be able to guess all the characters in this Disney quiz? Good luck Well played if you recognized Ariel singing Listen carefully and guess who's singing Li Shang Pick your next Challenge and make sure to like and subscribe."
+            },
+            "$learning_note": {
+                "value": "The video titled \"Quiz Blitz Guess The Voice and The Song! Disney Edition!\" is a fun and engaging challenge that tests viewers' knowledge of Disney characters and songs. Participants are prompted to identify the voices and songs of various Disney characters, such as Anxiety from \"Inside Out 2,\" Elsa, Moana, Simba, and many others. The quiz includes a mix of character voices and songs, encouraging fans to recall their favorite Disney moments and characters. This interactive format not only entertains but also serves as a nostalgic journey through Disney's rich history of animated films and beloved characters.",
+                "summary": "The video titled \"Quiz Blitz Guess The Voice and The Song! Disney Edition!\" is a fun and engaging challenge that tests viewers' knowledge of Disney characters and songs. Participants are prompted to identify the voices and songs of various Disney characters, such as Anxiety from \"Inside Out 2,\" Elsa, Moana, Simba, and many others. The quiz includes a mix of character voices and songs, encouraging fans to recall their favorite Disney moments and characters. This interactive format not only entertains but also serves as a nostalgic journey through Disney's rich history of animated films and beloved characters."
+            },
+            "$notion_page": {
+                "value": "success",
+                "summary": "success"
+            }
+        },
+        "final_output": null
+    }
+}
