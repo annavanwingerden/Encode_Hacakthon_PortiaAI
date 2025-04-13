@@ -48,7 +48,7 @@ class FindVideoTool(Tool[str]):
             return None
         
         ytt_api = YouTubeTranscriptApi()
-        fetched_transcript = ytt_api.fetch(video_id=id)
+        fetched_transcript = ytt_api.list(video_id=id).find_transcript(['en']).fetch(preserve_formatting=False)
         transcript_entries = fetched_transcript.to_raw_data()  
         transcript_text = ' '.join([entry['text'] for entry in transcript_entries]) 
         return 'https://www.youtube.com/watch?v='+id + " : " +transcript_text
