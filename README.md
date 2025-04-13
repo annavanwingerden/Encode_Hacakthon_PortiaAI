@@ -101,4 +101,4 @@ The homepage. Enables the user to enter a topic of their choosing.
 ![Agent Execution](images/generating.png)
 While the agent is executing, the user can see a progress bar, to ensure them the backend is not idling.
 ![Notion Summary Page](images/notion_summary.png)
-After the process has concluded, a corresponding page is created on the user's chosen notion page
+After the process has concluded, a corresponding page is created on the notion page corresponding to the API key

@@ -5,7 +5,7 @@ import subprocess
 
 class NotionPageAddToolSchema(BaseModel):
     """Schema defining the inputs for the NotionPageAddTool"""
-    pagename: str = Field(...,
+    pagename: str = Field(default= "New Topic",
                           description = "Name of page to be created")
     pagecontents: str = Field(...,
                               description = "The first pagraph of the new page")
