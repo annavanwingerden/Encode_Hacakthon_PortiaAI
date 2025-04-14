@@ -8,6 +8,16 @@ This project uses **Portia AI** to supercharge your learning. The user can enter
 
  It utilizes the [Portia SDK](https://docs.portialabs.ai/) to integrate various tools, including custom-built tools for finding YouTube videos and adding content to Notion pages. The application leverages the [Youtube Data API v3](https://developers.google.com/youtube/v3) to search for a relevant youtube video, [YouTube Transcript API](https://github.com/jdepoix/youtube-transcript-api) to fetch video transcripts and the [Notion API](https://developers.notion.com/) to create and manage pages.
 
+
+## Example User Flow
+
+![Homepage](images/homepage.png)
+The homepage. Enables the user to enter a topic of their choosing.
+![Agent Execution](images/generating.png)
+While the agent is executing, the user can see a progress bar, to ensure them the backend is not idling.
+![Notion Summary Page](images/notion_summary.png)
+After the process has concluded, a corresponding page is created on the notion page corresponding to the API key
+
 ## Prerequisites
 
 Before running this application, you'll need the following:
@@ -32,7 +42,6 @@ Before running this application, you'll need the following:
   PORTIA_API_KEY=your_portia_api_key
   TAGIVLY_API_KEY=your_tagivly_api_key
   ```
-
 ## Setup
 
 1. Clone the repository:
@@ -93,12 +102,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Examples
-
-![Homepage](images/homepage.png)
-The homepage. Enables the user to enter a topic of their choosing.
-![Agent Execution](images/generating.png)
-While the agent is executing, the user can see a progress bar, to ensure them the backend is not idling.
-![Notion Summary Page](images/notion_summary.png)
-After the process has concluded, a corresponding page is created on the notion page corresponding to the API key
